@@ -1,6 +1,24 @@
 ## Welcome to Algebra Ex Nihilo
 
-This page will be used to generate all of modern algebra from just a few axioms taken from set theory. You can use the [editor on GitHub](https://github.com/Thrallherd/aen/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This page will be used to generate all of modern algebra from just a few axioms taken from set theory. First off, we will need [basic definitions](
+https://github.com/Thrallherd/aen/gh-pages/basic_def.md).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You can use the [editor on GitHub](https://github.com/Thrallherd/aen/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
