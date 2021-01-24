@@ -1,7 +1,6 @@
 ## Welcome to Algebra Ex Nihilo
 
-This page will be used to generate all of modern algebra from just a few axioms taken from set theory. Let's get going with some [basic definitions](
-https://github.com/Thrallherd/aen/gh-pages/basic_def.md).
+This page will be used to generate all of modern algebra from just a few axioms taken from set theory. Let's get going with some [basic definitions](basic_def.md).
 
 
 
