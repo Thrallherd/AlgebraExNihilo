@@ -1,1 +1,14 @@
 theme: jekyll-theme-cayman
+name: 
+  en: Algebra Ex Nihilo
+  fr: Algebra Ex Nihilo
+description: 
+  en: Project aiming to generate modern algebra from scratch, using some axioms from set theory only.
+  fr: Projet visant à générer l'algèbre moderne de zéro, en partant de quelques axiomes de la théorie des ensembles seulement.
+footer:
+  en: A mathematical oddity from [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
+  fr: Une curiosité mathématique de [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
+exclude: [README.md]
+permalink: pretty
+repository: Thrallherd/AlgebraExNihilo
+baseurl: /AlgebraExNihilo
