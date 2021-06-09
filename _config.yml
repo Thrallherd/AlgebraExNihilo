@@ -3,7 +3,7 @@ name:
   en: Algebra Ex Nihilo
   fr: Algebra Ex Nihilo
 description: 
-  en: Project aiming to generate modern algebra from scratch, using some axioms from set theory only.
+  en: Project aiming to generate modern algebra from scratch, starting with a few axioms from set theory only.
   fr: Projet visant à générer l'algèbre moderne de zéro, en partant de quelques axiomes de la théorie des ensembles seulement.
 footer:
   en: A mathematical oddity from [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
