@@ -7,4 +7,4 @@ A **statement** is a grammatically correct sentence that conveys precise informa
 Two statements are said to be **equal** if they both convey the exact same information.
 
 ### Negation of a statement
-A **negation** of statement P is a statement conveying the exact opposite information. Since all statement conveying the same information are equal, we can refer to it as **the** negation of P. It is noted non P or non(P).
+A **negation** of statement P is a statement conveying the exact opposite information of P. Since all statements conveying the same information are equal, we can refer to it as **the** negation of P. It is noted non P or non(P).
