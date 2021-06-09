@@ -8,7 +8,3 @@ description:
 footer:
   en: A mathematical oddity from [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
   fr: Une curiosité mathématique de [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
-exclude: [README.md]
-permalink: pretty
-repository: Thrallherd/AlgebraExNihilo
-baseurl: /AlgebraExNihilo
