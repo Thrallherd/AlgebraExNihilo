@@ -3,7 +3,7 @@
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 ### Statement
-A **statement** is a grammatically correct sentence that conveys precise information.
+A **statement** is a grammatically correct sentence that conveys information.
 
 ### Equality of statements
 Two statements are said to be **equal** if they both convey the exact same information.
