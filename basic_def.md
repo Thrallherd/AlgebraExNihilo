@@ -2,4 +2,4 @@
 
 ### Statement
 
-A statement is a grammatically correct sentence that conveys precise information.
+A **statement** is a grammatically correct sentence that conveys precise information.
