@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+language: en
+nav-order: 1
+---
+
 <meta name="description" content="{{ site.description[page.language] }}">
 
 ## Welcome to Algebra Ex Nihilo
