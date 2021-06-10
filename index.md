@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-language: en
+title: Accueil
+language: fr
 nav-order: 1
 ---
 
