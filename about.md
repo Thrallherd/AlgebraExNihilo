@@ -1,4 +1,4 @@
 layout: default
-title: About
-language: en
+title: A propos
+language: fr
 handle: /about
