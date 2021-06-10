@@ -1,3 +1,4 @@
+language: en
 <meta name="description" content="{{ site.description[page.language] }}">
 
 ## Welcome to Algebra Ex Nihilo
