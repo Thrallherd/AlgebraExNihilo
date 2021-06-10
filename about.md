@@ -1,4 +1,7 @@
+---
 layout: default
-title: A propos
-language: fr
+title: About
+language: en
 handle: /about
+nav-order: 2
+---
