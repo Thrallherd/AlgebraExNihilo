@@ -5,7 +5,7 @@ language: fr
 nav-order: 1
 ---
 
-<meta name="description" content="{{ site.description[page.language] }}">
+<meta name="description" content="{{ site.description }}">
 
 ## Welcome to Algebra Ex Nihilo
 
