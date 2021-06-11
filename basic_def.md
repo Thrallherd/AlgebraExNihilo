@@ -3,7 +3,6 @@ layout: default
 title: Courtes définitions
 language: fr
 handle: /basic_def
-nav-order: 3
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
