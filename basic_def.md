@@ -9,7 +9,7 @@ handle: /basic_def
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-### Affirmation
+### Affirmations
 Une **affirmation** est une phrase grammaticalement correcte qui transmet une information.
 
 ### Egalité d'affirmations
