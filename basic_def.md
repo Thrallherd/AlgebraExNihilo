@@ -2,14 +2,14 @@
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-### Statement
-A **statement** is a grammatically correct sentence that conveys information.
+### Affirmation
+Une **affirmation** est une phrase grammaticalement correcte qui transmet une information.
 
-### Equality of statements
-Two statements are said to be **equal** if they both convey the exact same information.
+### Egalité d'affirmations
+Deux affirmations sont dites **égales** si elles transmettent exactement la même information.
 
-### Negation of a statement
-A **negation** of statement _P_ is a statement conveying the exact opposite information of _P_. Since all statements conveying the same information are equal, we can refer to it as **the** negation of _P_. It is noted non _P_ or non(_P_).
+### Négation d'une affirmation
+Une **négation** de l'affirmation _P_ est une affirmation transmettant l'information exactement opposée de _P_. Puisque toutes les affirmations qui transmettent la même information sont égales, on peut parler de **la** négation de _P_. Elle est notée non _P_ ou non(_P_).
 
-### True and false statements
-A statement is said to be **true** if the information it conveys is accurate. A statement is said to be **false** if its negation is true.
+### Affirmations vraies et fausses
+Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est juste. Une affirmation est dite **fausse** lorsque sa négation est vraie.
