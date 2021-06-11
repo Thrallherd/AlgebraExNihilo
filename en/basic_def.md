@@ -2,7 +2,7 @@
 layout: default
 title: Basic definitions
 language: en
-handle: /basic_def.md
+handle: /basic_def
 nav-order: 3
 ---
 
