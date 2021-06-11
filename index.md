@@ -5,6 +5,6 @@ language: fr
 nav-order: 1
 ---
 
-## Bienvenue à Algebra Ex Nihilo
+## Bienvenue en Algebra Ex Nihilo
 
 Cette page va servir à générer toute l'algèbre moderne simplement à partir de quelques axiomes pris dans la théorie des ensembles. Commençons par quelques [courtes définitions](basic_def.md).
