@@ -9,7 +9,7 @@ handle: /basic_def
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-### Statement
+### Statements
 A **statement** is a grammatically correct sentence that conveys information.
 
 ### Equality of statements
