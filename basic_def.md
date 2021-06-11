@@ -2,7 +2,7 @@
 layout: default
 title: Courtes définitions
 language: fr
-handle: /basic_def.md
+handle: /basic_def
 nav-order: 3
 ---
 
