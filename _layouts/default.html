@@ -24,11 +24,11 @@
     </nav>
     <nav class="language-switcher">
       {% if page.name contains "index" %}
-        <a class="French" href="{{ site.baseurl }}/">French</a>
-        <a class="English" href="{{ site.baseurl | append: "/en" }}">English</a>
+        <a class="fr" href="{{ site.baseurl }}/">Français</a>
+        <a class="en" href="{{ site.baseurl | append: "/en" }}">English</a>
       {% else %}
-        <a class="French" href="{{ site.baseurl | append: page.handle }}">French</a>
-        <a class="English" href="{{ site.baseurl | append: "/en" | append: page.handle }}">English</a>
+        <a class="fr" href="{{ site.baseurl | append: page.handle }}">Français</a>
+        <a class="en" href="{{ site.baseurl | append: "/en" | append: page.handle }}">English</a>
       {% endif %}
     </nav>
 
