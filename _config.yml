@@ -6,6 +6,6 @@ description:
   en: Project aiming to generate modern algebra from scratch, starting with a few axioms from set theory only.
   fr: Projet visant à générer l'algèbre moderne de zéro, en partant de quelques axiomes de la théorie des ensembles seulement.
 footer:
-  en: A mathematical oddity from [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
-  fr: Une curiosité mathématique de [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
+  en: A mathematical oddity presented by [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
+  fr: Une curiosité mathématique présentée par [Thrallherd](https://thrallherd.github.io/AlgebraExNihilo/)
 permalink: pretty
