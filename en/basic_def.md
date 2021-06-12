@@ -22,7 +22,7 @@ A **negation** of statement _P_ is a statement conveying the exact opposite info
 A statement is said to be **true** if the information it conveys is consistent with reality. A statement is said to be **false** if its negation is true.
 
 ### Disjunction of two statements
-The **logical disjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and/or _Q_ is true. It is noted _P_&#8744;_Q_.
+The **disjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and/or _Q_ is true. It is noted _P_&#8744;_Q_.
 
 ### Conjunction of two statements
-The **logical conjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and _Q_ are true. It is noted _P_&#8743;_Q_.
+The **conjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and _Q_ are true. It is noted _P_&#8743;_Q_. It could also be defined as the negation of the disjunction of non(_P_) and non(_Q_), that is non(non(_P_)&#8744;non(_Q_)).
