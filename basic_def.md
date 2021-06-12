@@ -25,4 +25,4 @@ Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est co
 La **disjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et/ou _Q_ est vraie. On la note _P_&#8744;_Q_.
 
 ### Conjonction de deux affirmations
-La **conjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ sont vraies. On la note _P_&#8743;_Q_. On aurait également pu la définir comme la négation de la disjonction de non _P_ et non _Q_, c'est-à-dire non(non _P_ &#8744; non _Q_).
+La **conjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ sont vraies. On la note _P_&#8743;_Q_. On aurait aussi pu la définir comme la négation de la disjonction de non _P_ et non _Q_, c'est-à-dire non(non _P_ &#8744; non _Q_).
