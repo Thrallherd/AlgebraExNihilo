@@ -29,3 +29,6 @@ The **conjunction** of two statements _P_ and _Q_ is the statement that is true 
 
 ### Implication between two statements
 Given two statements _P_ and _Q_, the **implication** $$Q \lor \neg P$$ is noted $$P \implies Q$$. It is the statement that is true only if it is not possible for _P_ to be true without _Q_ being true as well.
+
+### Equivalence between two statements
+Given two statements _P_ and _Q_, the **equivalence** of _P_ and _Q_ is the statement that is true only if both $$P \implies Q$$ and $$Q \implies P$$ are true. It is noted $$P \\iff Q$$.
