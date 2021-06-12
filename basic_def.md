@@ -28,4 +28,4 @@ La **disjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vra
 La **conjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ sont vraies. On la note $$P \land Q$$. On peut aussi la définir comme la négation de la disjonction de non _P_ et non _Q_, c'est-à-dire non$$(\neg P \lor \neg Q)$$.
 
 ### Implication entre deux affirmations
-Etant donné deux affirmations _P_ et _Q_, on note $$P \implies Q$$ l'**implication** $$Q \lor \neg P$$. C'est l'affirmation qui est vraie uniquement s'il n'est pas possible que _Q_ soit vraie sans que _P_ ne le soit également.
+Etant donné deux affirmations _P_ et _Q_, on note $$P \implies Q$$ l'**implication** $$Q \lor \neg P$$. C'est l'affirmation qui est vraie uniquement s'il n'est pas possible que _P_ soit vraie sans que _Q_ ne le soit également.
