@@ -25,4 +25,4 @@ Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est co
 La **disjonction logique** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et/ou _Q_ est vraie. On la note _P_&#8744;_Q_.
 
 ### Conjonction de deux affirmations
-La **conjonction logique** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ est vraie. On la note _P_&#8743;_Q_.
+La **conjonction logique** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ sont vraies. On la note _P_&#8743;_Q_.
