@@ -29,3 +29,6 @@ La **conjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vra
 
 ### Implication entre deux affirmations
 Etant donné deux affirmations _P_ et _Q_, on note $$P \implies Q$$ l'**implication** $$Q \lor \neg P$$. C'est l'affirmation qui est vraie uniquement s'il n'est pas possible que _P_ soit vraie sans que _Q_ ne le soit également.
+
+### Equivalence entre deux affirmations
+Etant donné deux affirmations _P_ et _Q_, l'**équivalence** entre _P_ et _Q_ est l'affirmation qui est vraie uniquement si $$P \implies Q$$ et $$Q \implies P$$ sont vraies. On la note $$P \iff Q$$.
