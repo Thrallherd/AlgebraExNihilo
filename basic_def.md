@@ -22,7 +22,7 @@ Une **négation** de l'affirmation _P_ est une affirmation transmettant l'inform
 Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est conforme à la réalité. Une affirmation est dite **fausse** lorsque sa négation est vraie.
 
 ### Disjonction de deux affirmations
-La **disjonction logique** de deux affirmations P et Q est l'affirmation qui est vraie uniquement si P ou/et Q est vraie. On la note _P_&#8744;_Q_.
+La **disjonction logique** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et/ou _Q_ est vraie. On la note _P_&#8744;_Q_.
 
 ### Conjonction de deux affirmations
-La **conjonction logique** de deux affirmations P et Q est l'affirmation qui est vraie uniquement si P et Q est vraie. On la note _P_&#8743;_Q_.
+La **conjonction logique** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ est vraie. On la note _P_&#8743;_Q_.
