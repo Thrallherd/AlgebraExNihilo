@@ -28,4 +28,4 @@ The **disjunction** of two statements _P_ and _Q_ is the statement that is true 
 The **conjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and _Q_ are true. It is noted $$P \land Q$$. It could also be defined as the negation of the disjunction of non _P_ and non _Q_, that is $$\text{non}(\neg P \lor \neg Q)$$.
 
 ### Implication between two statements
-Given two statements _P_ and _Q_, the **implication** $$Q \lor \neg P$$ is noted $$P \implies Q$$. It is the statement that is true only if it is not possible for _P_ to be true without $Q$ being true as well.
+Given two statements _P_ and _Q_, the **implication** $$Q \lor \neg P$$ is noted $$P \implies Q$$. It is the statement that is true only if it is not possible for _P_ to be true without _Q_ being true as well.
