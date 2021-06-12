@@ -25,4 +25,4 @@ A statement is said to be **true** if the information it conveys is consistent w
 The **logical disjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and/or _Q_ is true. It is noted _P_&#8744;_Q_.
 
 ### Conjunction of two statements
-The **logical conjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and _Q_ is true. It is noted _P_&#8744;_Q_.
+The **logical conjunction** of two statements _P_ and _Q_ is the statement that is true only if _P_ and _Q_ is true. It is noted _P_&#8743;_Q_.
