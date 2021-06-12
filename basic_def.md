@@ -28,4 +28,4 @@ La **disjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vra
 La **conjonction** de deux affirmations _P_ et _Q_ est l'affirmation qui est vraie uniquement si _P_ et _Q_ sont vraies. On la note _P_&#8743;_Q_. On peut aussi la définir comme la négation de la disjonction de non _P_ et non _Q_, c'est-à-dire non(non _P_ &#8744; non _Q_).
 
 ### Implication entre deux affirmations
-Etant donné deux affirmations _P_ et _Q_, on note $$P \implies Q$$ l'**implication** _Q_&#8744;non _P_. C'est l'affirmation qui est vraie uniquement s'il n'est pas possible que _Q_ soit vraie sans quee _P_ le soit également.
+Etant donné deux affirmations _P_ et _Q_, on note $$P \implies Q$$ l'**implication** _Q_&#8744;non _P_. C'est l'affirmation qui est vraie uniquement s'il n'est pas possible que _Q_ soit vraie sans que _P_ ne le soit également.
