@@ -15,5 +15,5 @@ Si _P_ est une affirmation, alors $$(P \lor P) \implies P$$ est vraie. Dit autre
 ### Axiome second
 Si _P_ et _Q_ sont deux affirmations, alors $$P \implies (P \lor Q)$$ est vraie. Dit autrement, _P_ implique _P_ ou _Q_.
 
-### Axiome troisème
+### Axiome troisième
 Si _P_ et _Q_ sont deux affirmations, alors $$(P \lor Q) \implies (Q \lor P)$$ est vraie. Dit autrement, _P_ ou _Q_ implique _Q_ ou _P_. Par symétrie, $$(Q \lor P) \implies (P \lor Q)$$ est vraie aussi et on a en fait l'équivalence $$(P \lor Q) \iff (Q \lor P)$$. 
