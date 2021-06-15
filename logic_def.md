@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Courtes définitions
+title: Définitions de logique
 language: fr
-handle: /basic_def
+handle: /logic_def
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
