@@ -17,4 +17,4 @@ Si _P_ et _Q_ sont deux affirmations, alors $$P \implies (P \lor Q)$$ est vraie.
 Si _P_ et _Q_ sont deux affirmations, alors $$(P \lor Q) \implies (Q \lor P)$$ est vraie. Dit autrement, _P_ ou _Q_ implique _Q_ ou _P_. Par symétrie, $$(Q \lor P) \implies (P \lor Q)$$ est vraie aussi et on a en fait l'équivalence $$(P \lor Q) \iff (Q \lor P)$$. 
 
 ### Axiome quatrième
-Si _P_, _Q_ et _R_ sont trois affirmations, alors nous avons $$(P \implies Q) \implies ((P \lor R) \implies (Q \lor R))$$. Dit autrement, si _P_ implique _Q_, alors _P_ ou _R_ implique _Q_ ou _R_.
+Si _P_, _Q_ et _R_ sont trois affirmations, alors nous avons $$(P \implies Q) \implies ((P \lor R) \implies (Q \lor R))$$. Dit autrement, si _P_ implique _Q_, alors la disjonction _P_ ou _R_ implique la disjonction _Q_ ou _R_.
