@@ -23,4 +23,4 @@ On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lo
 La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
 
 ### Conjonction de deux affirmations
-La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie uniquement si $$P$$ et $$Q$$ sont simultanément vraies. On la note $$P \land Q$$.
+La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et $$Q$$ sont simultanément vraies. On la note $$P \land Q$$.
