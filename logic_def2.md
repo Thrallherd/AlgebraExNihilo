@@ -11,7 +11,7 @@ handle: /logic_def2
 Une **affirmation** est une phrase grammaticalement correcte qui transmet une information.
 
 ### Négation d'une affirmation
-La **négation** de l'affirmation _P_ est l'affirmation transmettant l'information contraire de _P_. Elle est notée $$\overline P$$.
+La **négation** d'une affirmation _P_ est l'affirmation transmettant l'information contraire de _P_. Elle est notée $$\overline P$$.
 
 ### Véracité d'une affirmation
 Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est conforme à la réalité. Une affirmation est dite **fausse** lorsque sa négation est vraie. On dit que deux affirmations _P_ et _Q_ ont la même **véracité** soit lorsque _P_ et _Q_ sont toutes les deux vraies, soit lorsque _P_ et _Q_ sont toutes les deux fausses. On note alors $$P \equiv Q$$.
