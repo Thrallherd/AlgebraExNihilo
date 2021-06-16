@@ -17,7 +17,7 @@ La **négation** d'une affirmation $$P$$ est l'affirmation transmettant l'inform
 Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est conforme à la réalité. Une affirmation est dite **fausse** lorsque sa négation est vraie.
 
 ### Véracité d'une affirmation
-On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lorsqu'elles sont toutes les deux vraies, soit lorsqu'elles sont toutes les deux fausses. On note alors $$P \equiv Q$$. Si $$P$$ et $$Q$$ n'ont pas la même véracité, on note $$P \not \equiv Q$$.
+On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lorsqu'elles sont toutes les deux vraies, soit lorsqu'elles sont toutes les deux fausses, et on note alors $$P \equiv Q$$. Si $$P$$ et $$Q$$ n'ont pas la même véracité, on note dans ce cas $$P \not \equiv Q$$.
 
 ### Disjonction de deux affirmations
 La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
