@@ -10,9 +10,6 @@ handle: /logic_def2
 ### Affirmations
 Une **affirmation** est une phrase grammaticalement correcte qui transmet une information.
 
-### Egalité d'affirmations
-Deux affirmations sont dites **égales** si elles transmettent exactement la même information.
-
 ### Négation d'une affirmation
 La **négation** de l'affirmation _P_ est l'affirmation transmettant l'information contraire de _P_. Elle est notée $$\overline P$$.
 
