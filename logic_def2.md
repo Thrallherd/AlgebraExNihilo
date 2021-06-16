@@ -20,7 +20,7 @@ Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est co
 On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lorsqu'elles sont toutes les deux vraies, soit lorsqu'elles sont toutes les deux fausses. On note alors $$P \equiv Q$$. Si $$P$$ et $$Q$$ n'ont pas la même véracité, on note $$P \nequiv Q$$.
 
 ### Disjonction de deux affirmations
-La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie uniquement si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
+La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
 
 ### Conjonction de deux affirmations
-La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie uniquement si $$P$$ et $$Q$$ sont vraies. On la note $$P \land Q$$. On aurait également pu la définir comme la négation de la disjonction de $$\overline P$$ et $$\overline Q$$, c'est-à-dire $$\overline{\overline{P} \lor \overline{Q}}$$.
+La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie uniquement si $$P$$ et $$Q$$ sont simultanément vraies.
