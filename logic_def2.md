@@ -13,8 +13,11 @@ Une **affirmation** est une phrase grammaticalement correcte qui transmet une in
 ### Négation d'une affirmation
 La **négation** d'une affirmation $$P$$ est l'affirmation transmettant l'information contraire de $$P$$. Elle est notée $$\overline P$$.
 
+### Affirmations vraies et fausses
+Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est conforme à la réalité. Une affirmation est dite **fausse** lorsque sa négation est vraie.
+
 ### Véracité d'une affirmation
-Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est conforme à la réalité. Une affirmation est dite **fausse** lorsque sa négation est vraie. On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lorsqu'elles sont toutes les deux vraies, soit lorsqu'elles sont toutes les deux fausses. On note alors $$P \equiv Q$$.
+On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lorsqu'elles sont toutes les deux vraies, soit lorsqu'elles sont toutes les deux fausses. On note alors $$P \equiv Q$$. Si $$P$$ et $$Q$$ n'ont pas la même véracité, on note $$P \nequiv Q$$.
 
 ### Disjonction de deux affirmations
 La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie uniquement si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
