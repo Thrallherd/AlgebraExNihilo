@@ -10,6 +10,9 @@ handle: /logic_axm2
 ### Axiome premier (tiers exclu)
 Pour toute affirmation $$P$$, $$P$$ est vraie ou $$\overline P$$ est vraie, donc $$P \lor \overline P$$ est toujours vraie.
 
+### Axiome second (équivalence d'expressions)
+Deux expressions $$A$$ et $$B$$ telles que $$A \equiv B$$ quelles que soient les véracités des affirmations avec lesquelles elles ont été rédigées sont équivalentes.
+
 ### Axiome second (associativité des lois)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$ et on préférera écrire plus simplement $$P \lor Q \lor R$$. De même $$(P \land Q) \land R \iff P \land (Q \land R)$$ et on préférera écrire plus simplement $$P \land Q \land R$$
 
