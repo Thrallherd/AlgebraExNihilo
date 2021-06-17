@@ -20,10 +20,10 @@ Une affirmation est dite **vraie** lorsque l'information qu'elle transmet est co
 On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lorsqu'elles sont toutes les deux vraies, soit lorsqu'elles sont toutes les deux fausses, et on note alors $$P \equiv Q$$. Si $$P$$ et $$Q$$ n'ont pas la même véracité, on note dans ce cas $$P \not \equiv Q$$.
 
 ### Disjonction de deux affirmations
-La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
+La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et/ou $$Q$$ est vraie. On note cette affirmation $$P \lor Q$$.
 
 ### Conjonction de deux affirmations
-La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et $$Q$$ sont simultanément vraies. On la note $$P \land Q$$.
+La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et $$Q$$ sont simultanément vraies. On note cette affirmation $$P \land Q$$.
 
 ### Implication entre deux affirmations
 Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ implique $$Q$$ lorsque l'affirmation $$Q \lor \overline P$$ est vraie. On note alors $$P \implies Q$$.
