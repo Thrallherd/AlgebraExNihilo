@@ -26,7 +26,7 @@ La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est
 La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et $$Q$$ sont simultanément vraies. On la note $$P \land Q$$.
 
 ### Implication entre deux affirmations
-Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ implique $$Q$$ lorsque l'affirmation $$Q \lor \overline P$$ est vraie. On note dans ce cas $$P \implies Q$$.
+Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ implique $$Q$$ lorsque l'affirmation $$Q \lor \overline P$$ est vraie. On note alors $$P \implies Q$$.
 
 ### Equivalence de deux affirmations
-Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ et $$Q$$ sont équivalentes lorsqu'elles s'impliquent l'une l'autre. On note dans ce cas $$P \iff Q$$.
+Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ et $$Q$$ sont équivalentes lorsqu'elles s'impliquent l'une l'autre. On note alors $$P \iff Q$$.
