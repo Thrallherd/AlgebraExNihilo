@@ -25,6 +25,9 @@ La **disjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est
 ### Conjonction de deux affirmations
 La **conjonction** de deux affirmations $$P$$ et $$Q$$ est l'affirmation qui est vraie si $$P$$ et $$Q$$ sont simultanément vraies. On note cette affirmation $$P \land Q$$.
 
+### Expressions
+Une **expression** est une affirmation rédigée à partir de négation(s), disjonction(s) et/ou conjonction(s) de plusieurs affirmations.
+
 ### Implication entre deux affirmations
 Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ implique $$Q$$ lorsque l'affirmation $$Q \lor \overline P$$ est vraie. On note alors $$P \implies Q$$.
 
