@@ -26,7 +26,7 @@ La **disjonction** de deux affirmations $$P$$ et $$Q$$ est vraie si $$P$$ et/ou 
 La **conjonction** de deux affirmations $$P$$ et $$Q$$ est vraie si $$P$$ et $$Q$$ sont toutes les deux vraies. On la note $$P \land Q$$.
 
 ### Expressions
-Une **expression** est une affirmation rédigée à partir de négation(s), disjonction(s) et/ou conjonction(s) de plusieurs affirmations.
+Une **expression** est une affirmation rédigée à partir de négation(s), disjonction(s) et/ou conjonction(s) d'une ou plusieurs affirmations.
 
 ### Implication entre deux affirmations
 Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ implique $$Q$$ lorsque l'expression $$Q \lor \overline P$$ est vraie. On note alors $$P \implies Q$$.
