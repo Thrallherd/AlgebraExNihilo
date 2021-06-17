@@ -23,7 +23,7 @@ On dit que deux affirmations $$P$$ et $$Q$$ ont la même **véracité**, soit lo
 La **disjonction** de deux affirmations $$P$$ et $$Q$$ est vraie si $$P$$ et/ou $$Q$$ est vraie. On la note $$P \lor Q$$.
 
 ### Conjonction de deux affirmations
-La **conjonction** de deux affirmations $$P$$ et $$Q$$ est vraie si $$P$$ et $$Q$$ sont simultanément vraies. On la note $$P \land Q$$.
+La **conjonction** de deux affirmations $$P$$ et $$Q$$ est vraie si $$P$$ et $$Q$$ sont toutes les deux vraies. On la note $$P \land Q$$.
 
 ### Expressions
 Une **expression** est une affirmation rédigée à partir de négation(s), disjonction(s) et/ou conjonction(s) de plusieurs affirmations.
