@@ -8,7 +8,7 @@ handle: /logic_cor
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ### Corollaire (double négation)
-Si $$P$$ est une affirmation, alors $$P \iff \overline \overline P$$.
+Si $$P$$ est une affirmation, alors $$P \iff \overline{\overline P}$$.
 
 **Preuve.**
 
