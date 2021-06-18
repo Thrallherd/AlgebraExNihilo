@@ -21,7 +21,7 @@ Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \lor R \iff 
 
 
 _____
-### Axiome troisième (commutativité des lois)
+### Corollaire (commutativité des lois)
 Si $$P$$ et $$Q$$ sont deux affirmations, on a $$P \lor Q \iff Q \lor P$$ et $$P \land Q \iff Q \land P$$.
 
 **Preuve.** En dressant la table des véracités de $$P \lor Q$$ d'une part, et celle de $$Q \lor P$$, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$P \lor Q \iff Q \lor P$$. Le raisonnement est identique pour montrer que $$P \land Q \iff Q \land P$$. 
@@ -35,9 +35,20 @@ Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\o
 
 
 __________
-### Axiome quatrième
-Si $$P$$ et $$Q$$ sont deux affirmations, on a les deux équivalences $$\overline P \lor Q \iff \overline{P} \land \overline{Q}$$ et $$\overline P \land Q \iff \overline{P} \lor \overline{Q}$$.
+### Corollaire (distribution de la conjonction)
+Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \land R \iff (P \land R) \lor (Q \lor R)$$
 
+**Preuve.** En dressant la table des véracités de $$(P \lor Q) \land R$$ d'une part, et celle de $$(P \land R) \lor (Q \lor R)$$, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$(P \lor Q) \land R \iff (P \land R) \lor (Q \lor R)$$.
+
+
+__________
+### Corollaire (négation d'une expression)
+Si $$P$$ et $$Q$$ sont deux affirmations, on a les deux équivalences $$\overline{P \lor Q} \iff \overline{P} \land \overline{Q}$$ et $$\overline{P \land Q} \iff \overline{P} \lor \overline{Q}$$.
+
+**Preuve.** En dressant la table des véracités de $$\overline{P \lor Q}$$ d'une part, et celle de $$\overline{P} \land \overline{Q}$$, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$\overline{P \lor Q} \iff \overline{P} \land \overline{Q}$$. Le raisonnement est identique pour montrer que $$\overline{P \land Q} \iff \overline{P} \lor \overline{Q}$$. 
+
+
+__________
 ### Axiome second
 Si _P_ et _Q_ sont deux affirmations, alors $$P \implies (P \lor Q)$$ est vraie. Dit autrement, _P_ implique _P_ ou _Q_.
 
