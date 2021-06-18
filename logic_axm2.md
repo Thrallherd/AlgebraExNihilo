@@ -11,7 +11,7 @@ handle: /logic_axm2
 Pour toute affirmation $$P$$, $$P$$ est vraie ou $$\overline P$$ est vraie, donc $$P \lor \overline P$$ est toujours vraie.
 
 ### Axiome deuxième (raisonnement par l'absurde)
-Soit $$P$$ une affirmation dont la véracité est indéterminée, et soit $$Q$$ une affirmation fausse. Si $$P \implies Q$$, alors $$P$$ est fausse.
+Soit $$P$$ une affirmation dont la véracité n'a pas encore été déterminée, et soit $$Q$$ une affirmation fausse. Si $$P \implies Q$$, alors $$P$$ est fausse.
 
 ### Axiome troisième (dichotomie)
 Deux expressions $$A$$ et $$B$$, rédigées avec les mêmes affirmations, telles que $$A \equiv B$$ quelles que soient les véracités des affirmations avec lesquelles elles ont été rédigées, sont équivalentes.
