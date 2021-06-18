@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Corollaire de logique
+title: Corollaires de logique
 language: fr
 handle: /logic_cor
 ---
