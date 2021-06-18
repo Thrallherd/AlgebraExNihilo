@@ -2,7 +2,7 @@
 layout: default
 title: Définitions de logique
 language: fr
-handle: /logic_def2
+handle: /logic_def
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
