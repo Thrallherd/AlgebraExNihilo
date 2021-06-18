@@ -25,7 +25,7 @@ Si $$P$$ et $$Q$$ sont deux affirmations, on a $$P \lor Q \iff Q \lor P$$ et $$P
 ### Corollaire (proposition contraposée)
 Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\overline{Q} \implies \overline{P}$$.
 
-**Preuve.** Comme $$P \implies Q$$, l'expression $$Q \lor \overline P$$ est vraie. D'après le corollaire de double négation, on a $$Q \iff \overline{\overline{Q}}$$ donc les expressions $$Q \lor \overline P$$ et $$\overline{\overline{Q}} \lor \overline P$$ sont équivalentes. Avec le corollaire de commutativité, on a donc $$Q \lor \overline P \iff \overline{P} \lor \overline{\overline{Q}}. La deuxième expression signifiant $$\overline{Q} \implies \overline{P}$$, cela conclut.
+**Preuve.** Comme $$P \implies Q$$, l'expression $$Q \lor \overline P$$ est vraie. D'après le corollaire de double négation, on a $$Q \iff \overline{\overline{Q}}$$ donc les expressions $$Q \lor \overline P$$ et $$\overline{\overline{Q}} \lor \overline P$$ sont équivalentes. Avec le corollaire de commutativité, on a donc $$Q \lor \overline P \iff \overline{P} \lor \overline{\overline{Q}}$$. La deuxième expression signifiant $$\overline{Q} \implies \overline{P}$$, cela conclut.
 
 ### Axiome quatrième
 Si $$P$$ et $$Q$$ sont deux affirmations, on a les deux équivalences $$\overline P \lor Q \iff \overline{P} \land \overline{Q}$$ et $$\overline P \land Q \iff \overline{P} \lor \overline{Q}$$.
