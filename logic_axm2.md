@@ -14,7 +14,7 @@ Pour toute affirmation $$P$$, $$P$$ est vraie ou $$\overline P$$ est vraie, donc
 Soit $$P$$ une affirmation dont la véracité n'a pas encore été déterminée, et soit $$Q$$ une affirmation fausse. Si $$P \implies Q$$, alors $$P$$ est fausse.
 
 ### Axiome troisième (dichotomie)
-Deux expressions $$A$$ et $$B$$, rédigées avec les mêmes affirmations, telles que $$A \equiv B$$ quelles que soient les véracités des affirmations avec lesquelles elles ont été rédigées, sont équivalentes.
+Deux expressions $$A$$ et $$B$$, rédigées à partir des mêmes affirmations, telles que $$A \equiv B$$ quelles que soient les véracités des affirmations avec lesquelles elles ont été rédigées, sont équivalentes.
 
 ### Axiome quatrième (remplacement)
 Si deux affirmations $$P$$ et $$Q$$ sont équivalentes, et si $$A$$ est une expression rédigée avec $$P$$ sans $$Q$$, alors en notant $$B$$ la même expression rédigée en remplaçant systématiquement $$P$$ par $$Q$$, on a $$A \iff B$$.
