@@ -42,7 +42,7 @@ Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \land R \iff
 
 
 __________
-### Corollaire (négation d'une expression)
+### Corollaire (négation des conjonctions et disjonctions)
 Si $$P$$ et $$Q$$ sont deux affirmations, on a les deux équivalences $$\overline{P \lor Q} \iff \overline{P} \land \overline{Q}$$ et $$\overline{P \land Q} \iff \overline{P} \lor \overline{Q}$$.
 
 **Preuve.** En dressant la table des véracités de $$\overline{P \lor Q}$$ d'une part, et celle de $$\overline{P} \land \overline{Q}$$, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$\overline{P \lor Q} \iff \overline{P} \land \overline{Q}$$. Le raisonnement est identique pour montrer que $$\overline{P \land Q} \iff \overline{P} \lor \overline{Q}$$. 
