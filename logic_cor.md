@@ -10,7 +10,7 @@ handle: /logic_cor
 ### Corollaire (double négation)
 Si $$P$$ est une affirmation, alors $$P \iff \overline{\overline P}$$.
 
-**Preuve.** Si $$P$$ est vraie, alors $$\overline P$$ est fausse. Par l'axiome du tiers exclu, on en déduit que la négation de $$\overline P$$ est vraie, c'est-à-dire que $$\overline{\overline P}$$ est vraie. De même si $P$ est fausse, on en déduit que $$\overline P$$ est vraie et donc que $$\overline{\overline P}$$ est fausse. Comme $$P$$ et $$\overline{\overline P}}$$ ont toujours la même véracité, on conclut par l'axiome de dichotomie que $$P \iff \overline{\overline P}}$$.
+**Preuve.** Si $$P$$ est vraie, alors $$\overline P$$ est fausse. Par l'axiome du tiers exclu, on en déduit que la négation de $$\overline P$$ est vraie, c'est-à-dire que $$\overline{\overline P}$$ est vraie. De même si $P$ est fausse, on en déduit que $$\overline P$$ est vraie et donc que $$\overline{\overline P}$$ est fausse. Comme $$P$$ et $$\overline{\overline P}$$ ont toujours la même véracité, on conclut par l'axiome de dichotomie que $$P \iff \overline{\overline P}$$.
 
 ### Corollaire (associativité des lois)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$ et on préférera écrire plus simplement $$P \lor Q \lor R$$. De même $$(P \land Q) \land R \iff P \land (Q \land R)$$ et on préférera écrire plus simplement $$P \land Q \land R$$.
