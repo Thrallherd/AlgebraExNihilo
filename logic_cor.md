@@ -35,7 +35,7 @@ Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\o
 
 
 __________
-### Corollaire (distribution de la conjonction)
+### Corollaire (distribution de la conjonction sur la disjonction)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \land R \iff (P \land R) \lor (Q \land R)$$
 
 **Preuve.** En dressant la table des véracités de $$(P \lor Q) \land R$$ d'une part, et celle de $$(P \land R) \lor (Q \land R)$$, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$(P \lor Q) \land R \iff (P \land R) \lor (Q \land R)$$.
