@@ -7,14 +7,14 @@ handle: /logic_axm2
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-### Axiome premier (tiers exclu)
+### Axiome du tiers exclu
 Pour toute affirmation $$P$$, $$P$$ est vraie ou $$\overline P$$ est vraie, donc $$P \lor \overline P$$ est toujours vraie.
 
-### Axiome deuxième (raisonnement par l'absurde)
+### Axiome du raisonnement par l'absurde
 Soit $$P$$ une affirmation dont la véracité n'a pas encore été déterminée, et soit $$Q$$ une affirmation fausse. Si $$P \implies Q$$, alors $$P$$ est fausse.
 
-### Axiome troisième (dichotomie)
+### Axiome de dichotomie
 Deux expressions $$A$$ et $$B$$, rédigées à partir des mêmes affirmations, telles que $$A \equiv B$$ quelles que soient les véracités des affirmations avec lesquelles elles ont été rédigées, sont équivalentes.
 
-### Axiome quatrième (remplacement)
+### Axiome de remplacement
 Si deux affirmations $$P$$ et $$Q$$ sont équivalentes, et si $$A$$ est une expression rédigée avec $$P$$ sans $$Q$$, alors en notant $$B$$ la même expression rédigée en remplaçant systématiquement $$P$$ par $$Q$$, on a $$A \iff B$$.
