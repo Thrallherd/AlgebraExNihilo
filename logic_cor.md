@@ -1,3 +1,10 @@
+---
+layout: default
+title: Corollaire de logique
+language: fr
+handle: /logic_cor
+---
+
 ### Corollaire (double négation)
 Si $$P$$ est une affirmation, alors $$P \iff \overline \overline P$$.
 
