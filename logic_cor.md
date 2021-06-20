@@ -14,6 +14,11 @@ Si $$P$$ est une affirmation, alors $$P \iff \overline{\overline P}$$.
 
 
 __________
+### Corollaire (raisonnement par l'absurde)
+Si 
+
+
+__________
 ### Corollaire (associativité des lois)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$ et on préférera écrire plus simplement $$P \lor Q \lor R$$. De même $$(P \land Q) \land R \iff P \land (Q \land R)$$ et on préférera écrire plus simplement $$P \land Q \land R$$.
 
