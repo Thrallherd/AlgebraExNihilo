@@ -24,7 +24,7 @@ __________
 ### Corollaire (associativité des lois)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$ et on préférera écrire plus simplement $$P \lor Q \lor R$$. De même $$(P \land Q) \land R \iff P \land (Q \land R)$$ et on préférera écrire plus simplement $$P \land Q \land R$$.
 
-**Preuve.** En dressant la table des véracités de $$(P \lor Q) \lor R$$ d'une part, et celle de $$P \lor (Q \lor R)$$ d'autre part, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$. Le raisonnement est identique pour montrer que $$(P \land Q) \land R \iff P \land (Q \land R)$$. 
+**Preuve.** En dressant la table des véracités de $$(P \lor Q) \lor R$$ d'une part, et celle de $$P \lor (Q \lor R)$$ d'autre part, on voit que ce sont les mêmes. D'après l'axiome de dichotomie, on en déduit que $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$. Le raisonnement est identique pour montrer que $$(P \land Q) \land R \iff P \land (Q \land R)$$.
 
 
 _____
