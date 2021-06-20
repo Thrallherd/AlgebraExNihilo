@@ -17,7 +17,7 @@ __________
 ### Corollaire (raisonnement par l'absurde)
 Soit $$P$$ une affirmation dont la véracité n'a pas encore été déterminée, et soit $$Q$$ une affirmation fausse. Si $$\overline{P} \implies Q$$, alors $$P$$ est vraie.
 
-**Preuve.** D'après l'axiome de réfutation, on sait que $$\overline P$$ est fausse, c'est-à-dire que $$\overline{\overline P}$$ est vraie. Par le corollaire de double négation, comme $$P \iff \overline{\overline P}$$, on en déduit que $$P$$ est vraie.
+**Preuve.** D'après l'axiome de réfutation, on sait que $$\overline P$$ est fausse, c'est-à-dire que $$P$$ est vraie par l'axiome du tiers exclu.
 
 
 __________
