@@ -16,5 +16,5 @@ Deux expressions $$A$$ et $$B$$, rédigées à partir des mêmes affirmations, t
 ### Axiome de remplacement
 Si deux affirmations $$P$$ et $$Q$$ sont équivalentes, et si $$A$$ est une expression rédigée avec $$P$$ sans $$Q$$, alors en notant $$B$$ la même expression rédigée en remplaçant systématiquement $$P$$ par $$Q$$, on a $$A \iff B$$.
 
-### Axiome du raisonnement par l'absurde
+### Axiome de réfutation
 Soit $$P$$ une affirmation dont la véracité n'a pas encore été déterminée, et soit $$Q$$ une affirmation fausse. Si $$P \implies Q$$, alors $$P$$ est fausse.
