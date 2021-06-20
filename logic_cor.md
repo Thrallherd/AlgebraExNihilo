@@ -55,11 +55,11 @@ Si $$P$$ et $$Q$$ sont deux affirmations, on a toujours $$P \implies P \lor Q$$ 
 **Preuve.** $$P \lor Q \lor \overline P$$ est toujours vraie par le corollaire d'associativité puis par l'axiome du tiers exclu, donc $$P \implies P \lor Q$$. De même, $$ P \lor \overline{(P \land Q)}$$ est équivalente à $$P \lor \overline{Q} \lor \overline{P}$$ qui est toujours vraie, donc $$P \land Q \implies P$$.
 
 
-_____
-### Corollaire (proposition contraposée)
-Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\overline{Q} \implies \overline{P}$$.
+__________
+### Corollaire (équivalences gratuites)
+Si $$P$$ est une affirmation, si $$V$$ et $$F$$ sont des affirmations vraie et fausse respectivement, alors on a $$P \iff P \land V$$ et $$P \iff P \lor F$$..
 
-**Preuve.** Comme $$P \implies Q$$, l'expression $$Q \lor \overline P$$ est vraie. D'après le corollaire de double négation, on a $$Q \iff \overline{\overline{Q}}$$ donc les expressions $$Q \lor \overline P$$ et $$\overline{\overline{Q}} \lor \overline P$$ sont équivalentes par l'axiome de remplacement. Avec le corollaire de commutativité, on a donc $$Q \lor \overline P \iff \overline{P} \lor \overline{\overline{Q}}$$. La deuxième expression signifiant $$\overline{Q} \implies \overline{P}$$, cela conclut.
+*Preuve.** Pour montrer que $$P \iff P \land V$$, on voit qu'il s'agit en fait de montrer l'équivalence de deux expressions $$A$$ et $$B$$ qui ont été rédigées avec $$P$$ uniquement. Quelle que soit la véracité de $$P$$, on voit que $$A \equiv B$$ donc par application de l'axiome de dichotomie, on conclut que $$P \iff P \land V$$. On montre de la même manière que $$P \iff P \lor F$$.
 
 
 __________
@@ -67,7 +67,16 @@ __________
 Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$ et $$P$$ sont vraies, alors $$Q$$ est vraie.
 
 
-**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \lor \overline P)$$ vraie. Par distribution, $$P \land (Q \lor \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$.
+**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \lor \overline P)$$ vraie. Par distribution, $$P \land (Q \lor \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$. Comme $$P \land \overline{P}$$ est toujours fausse, on a au final 
+
+
+_____
+### Corollaire (proposition contraposée)
+Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\overline{Q} \implies \overline{P}$$.
+
+**Preuve.** Comme $$P \implies Q$$, l'expression $$Q \lor \overline P$$ est vraie. D'après le corollaire de double négation, on a $$Q \iff \overline{\overline{Q}}$$ donc les expressions $$Q \lor \overline P$$ et $$\overline{\overline{Q}} \lor \overline P$$ sont équivalentes par l'axiome de remplacement. Avec le corollaire de commutativité, on a donc $$Q \lor \overline P \iff \overline{P} \lor \overline{\overline{Q}}$$. La deuxième expression signifiant $$\overline{Q} \implies \overline{P}$$, cela conclut.
+
+
 
 
 __________
