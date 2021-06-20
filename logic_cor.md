@@ -59,7 +59,7 @@ __________
 ### Corollaire (équivalences gratuites)
 Si $$P$$ est une affirmation, si $$V$$ et $$F$$ sont des affirmations vraie et fausse respectivement, alors on a $$P \iff P \land V$$ et $$P \iff P \lor F$$..
 
-*Preuve.** Pour montrer que $$P \iff P \land V$$, on voit qu'il s'agit en fait de montrer l'équivalence de deux expressions $$A$$ et $$B$$ qui ont été rédigées avec $$P$$ uniquement. Quelle que soit la véracité de $$P$$, on voit que $$A \equiv B$$ donc par application de l'axiome de dichotomie, on conclut que $$P \iff P \land V$$. On montre de la même manière que $$P \iff P \lor F$$.
+**Preuve.** Pour montrer que $$P \iff P \land V$$, on voit qu'il s'agit en fait de montrer l'équivalence de deux expressions $$A$$ et $$B$$ qui ont été rédigées avec $$P$$ uniquement. Quelle que soit la véracité de $$P$$, on voit que $$A \equiv B$$ donc par application de l'axiome de dichotomie, on conclut que $$P \iff P \land V$$. On montre de la même manière que $$P \iff P \lor F$$.
 
 
 __________
