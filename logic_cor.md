@@ -49,6 +49,14 @@ Si $$P$$ et $$Q$$ sont deux affirmations, on a les deux équivalences $$\overlin
 
 
 __________
+### Corollaire (déduction)
+Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$ et $$P$$ est vraie, alors $$Q$$ est vraie.
+
+
+**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \overline P)$$ vraie. Par distribution, $$P \land (Q \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$.
+
+
+__________
 ### Axiome second
 Si _P_ et _Q_ sont deux affirmations, alors $$P \implies (P \lor Q)$$ est vraie. Dit autrement, _P_ implique _P_ ou _Q_.
 
