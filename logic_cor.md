@@ -67,7 +67,7 @@ __________
 Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$ et $$P$$ sont vraies, alors $$Q$$ est vraie.
 
 
-**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \lor \overline P)$$ vraie. Par distribution, $$P \land (Q \lor \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$. Comme $$P \land \overline{P}$$ est toujours fausse, on a au final $$P \land (Q \lor \overline P) \iff (P \land Q)$$ et cette dernière expression est vraie par hypothèse. Comme $$\overline P$$ est fausse, on a $$\overline{Q} \implies \overline{P} \lor \overline{Q}$$, soit $$\overline{Q} \implies \overline{P \land Q}$$ par négation de la conjonction. Comme $$\overline{P \land Q}$$ est fausse, on conclut par l'absurde que $$Q$$ est vraie.
+**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \lor \overline P)$$ vraie. Par distribution, $$P \land (Q \lor \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$. Comme $$P \land \overline{P}$$ est toujours fausse, on a au final $$P \land (Q \lor \overline P) \iff (P \land Q)$$ et cette dernière expression est donc vraie. Comme $$\overline P$$ est fausse, on a $$\overline{Q} \implies \overline{P} \lor \overline{Q}$$, soit $$\overline{Q} \implies \overline{P \land Q}$$ par négation de la conjonction. Comme $$\overline{P \land Q}$$ est fausse, on conclut par l'absurde que $$Q$$ est vraie.
 
 
 _____
