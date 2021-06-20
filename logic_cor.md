@@ -21,6 +21,13 @@ Soit $$P$$ une affirmation dont la véracité n'a pas encore été déterminée,
 
 
 __________
+### Corollaire (implication de disjonction)
+Si $$P$$ et $$Q$$ sont deux affirmations, on a toujours $$P \implies P \lor Q$$.
+
+**Preuve.** $$P \lor Q \lor \overline P$$ est toujours vraie par l'axiome du tiers exclu, donc $$P \implies P \lor Q$$.
+
+
+__________
 ### Corollaire (associativité des lois)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, on a $$(P \lor Q) \lor R \iff P \lor (Q \lor R)$$ et on préférera écrire plus simplement $$P \lor Q \lor R$$. De même $$(P \land Q) \land R \iff P \land (Q \land R)$$ et on préférera écrire plus simplement $$P \land Q \land R$$.
 
