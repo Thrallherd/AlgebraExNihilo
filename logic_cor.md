@@ -52,7 +52,7 @@ __________
 ### Corollaire (implications gratuites)
 Si $$P$$ et $$Q$$ sont deux affirmations, on a toujours $$P \implies P \lor Q$$ et $$P \land Q \implies P$$.
 
-**Preuve.** $$P \lor Q \lor \overline P$$ est toujours vraie par l'axiome du tiers exclu, donc $$P \implies P \lor Q$$. De même, $$ P \lor \overline{(P \land Q)}$$ est équivalente à $$P \lor \overline{Q} \lor \overline{P}$$ qui est toujours vraie, donc $$P \land Q \implies P$$.
+**Preuve.** $$P \lor Q \lor \overline P$$ est toujours vraie par le corollaire d'associativité puis par l'axiome du tiers exclu, donc $$P \implies P \lor Q$$. De même, $$ P \lor \overline{(P \land Q)}$$ est équivalente à $$P \lor \overline{Q} \lor \overline{P}$$ qui est toujours vraie, donc $$P \land Q \implies P$$.
 
 
 _____
@@ -64,10 +64,10 @@ Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\o
 
 __________
 ### Corollaire (déduction)
-Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$ et $$P$$ est vraie, alors $$Q$$ est vraie.
+Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$ et $$P$$ sont vraies, alors $$Q$$ est vraie.
 
 
-**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \overline P)$$ vraie. Par distribution, $$P \land (Q \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$.
+**Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \lor \overline P)$$ vraie. Par distribution, $$P \land (Q \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$.
 
 
 __________
