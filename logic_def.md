@@ -29,7 +29,7 @@ La **conjonction** de deux affirmations $$P$$ et $$Q$$ est vraie si $$P$$ et $$Q
 Une **expression** est une affirmation rédigée à partir de négation(s), disjonction(s) et/ou conjonction(s) d'une ou plusieurs affirmations.
 
 ### Implication entre deux affirmations
-Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ implique $$Q$$ lorsque l'expression $$Q \lor \overline P$$ est vraie. On note alors $$P \implies Q$$.
+Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ **implique** $$Q$$ lorsque l'expression $$P \land \overline Q$$ est toujours fausse. On note alors $$P \implies Q$$.
 
 ### Equivalence de deux affirmations
 Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ et $$Q$$ sont équivalentes lorsqu'elles s'impliquent l'une l'autre. On note alors $$P \iff Q$$.
