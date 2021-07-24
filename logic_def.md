@@ -32,4 +32,4 @@ Une **expression** est une affirmation rédigée à partir de négation(s), disj
 Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ **implique** $$Q$$ lorsque l'expression $$P \land \overline Q$$ est toujours fausse. On note alors $$P \implies Q$$.
 
 ### Equivalence de deux affirmations
-Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ et $$Q$$ sont équivalentes lorsqu'elles s'impliquent l'une l'autre. On note alors $$P \iff Q$$.
+Si $$P$$ et $$Q$$ sont deux affirmations, on dit que $$P$$ et $$Q$$ sont **équivalentes** lorsqu'elles s'impliquent l'une l'autre. On note alors $$P \iff Q$$.
