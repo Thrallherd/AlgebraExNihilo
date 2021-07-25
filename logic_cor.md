@@ -93,6 +93,6 @@ Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies R$$ et 
 
 __________
 ### Corollaire (enrichissement d'implication)
-Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, alors l'implication $$(P \implies Q)$$ implique l'implication $$(P \lor R) \implies (Q \lor R)$$.
+Si $$P$$, $$Q$$, $$R$$ et $$S$$ sont quatre affirmations telles que $$P \implies Q$$ et $$R \implies S$$, alors on a l'implication $$(P \lor R) \implies (Q \lor S)$$.
 
-**Preuve.** Regardons de plus près l'expression $$(P \lor R) \land \overline{(Q \lor R)}$$, équivalente à $$(P \lor R) \land (\overline{Q} \land \overline{R})$$ par négation de la disjonction. Cette dernière expression est équivalente à $$(P \land \overline{Q} \land \overline{R}) \lor (R \land \overline{Q} \land \overline{R})$$ par associativité puis distribution. Comme $$R \land \overline R$$ est toujours fausse d'une part, et $$P \land \overline{Q}$$ est fausse par hypothèse d'autre part, on en déduit que l'expression qui nous occupe est toujours fausse. Ainsi on a bien $$(P \lor R) \implies (Q \lor R)$$.
+**Preuve.** Regardons de plus près l'expression $$(P \lor R) \land \overline{(Q \lor S)}$$, équivalente à $$(P \lor R) \land (\overline{Q} \land \overline{S})$$ par négation de la disjonction. Cette dernière expression est équivalente à $$(P \land \overline{Q} \land \overline{S}) \lor (R \land \overline{Q} \land \overline{S})$$ par associativité puis distribution. Comme $$R \land \overline S$$ et $$P \land \overline Q $$ sont toujours fausses par hypothèse, on en déduit que l'expression qui nous occupe est toujours fausse. Ainsi on a bien $$(P \lor R) \implies (Q \lor S)$$.
