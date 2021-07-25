@@ -82,7 +82,7 @@ __________
 Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P$$ vraie implique $$Q$$ vraie, alors l'implication $$P \implies Q$$. est vraie.
 
 
-**Preuve.** Si $$P \land \overline Q$$ est vraie, alors $$P$$ et $$\overline Q$$ sont vraies simultanément, c'est-à-dire que $$P$$ est vraie et $$Q$$ est fausse simultanément. Cela contredit l'hypothèse qui affirme que si $$P$$ est vraie, alors $$Q$$ l'est aussi. Ainsi $$P \land \overline Q$$ est fausse et $$P \implies Q$$.
+**Preuve.** Si $$P \land \overline Q$$ est vraie, alors $$P$$ et $$\overline Q$$ sont vraies simultanément, c'est-à-dire que $$P$$ est vraie et $$Q$$ est fausse simultanément. Cette affirmation contredit l'hypothèse de départ, ansi par l'absurde $$P \land \overline Q$$ est fausse et $$P \implies Q$$.
 
 
 _____
