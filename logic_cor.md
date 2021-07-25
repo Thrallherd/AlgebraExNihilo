@@ -93,9 +93,9 @@ Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies R$$ et 
 
 __________
 ### Corollaire (conjonction des cas)
-Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies Q$$ et $$P \implies R$$, alors $$P \implies (Q \lor R)$$.
+Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies Q$$ et $$P \implies R$$, alors $$P \implies (Q \land R)$$.
 
-**Preuve.** Par hypothèse, $$P \land \overline Q$$ et $$P \land \overline R$$ sont fausses, donc leur disjonction $$(P \land \overline Q) \lor (P \land \overline R)$$ l'est aussi. Comme $$(P \land \overline R) \lor (Q \land \overline R) \iff P \land (\overline{Q} \land \overline R)$$, on en déduit que $$P \land (\overline{Q} \land \overline R)$$ est fausse. Par négation de la disjonction, $$P \land \overline{(Q \lor R)}$$ est fausse, on a donc bien $$P \implies (Q \lor R)$$.
+**Preuve.** Par hypothèse, $$P \land \overline Q$$ et $$P \land \overline R$$ sont fausses, donc leur disjonction $$(P \land \overline Q) \lor (P \land \overline R)$$ l'est aussi. Comme $$(P \land \overline Q) \lor (P \land \overline R) \iff P \land (\overline{Q} \lor \overline R)$$, on en déduit que $$P \land (\overline{Q} \lor \overline R)$$ est fausse. Par négation de la conjonction, $$P \land \overline{(Q \land R)}$$ est fausse, on a donc bien $$P \implies (Q \land R)$$.
 
 
 __________
