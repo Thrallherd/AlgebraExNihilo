@@ -93,6 +93,6 @@ Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies R$$ et 
 
 __________
 ### Corollaire (enrichissement d'implication)
-Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, alors l'implication $$(P \implies Q)$$ implique l'implication $$((P \lor R) \implies (Q \lor R))$$.
+Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, alors l'implication $$(P \implies Q)$$ implique l'implication $$(P \lor R) \implies (Q \lor R)$$.
 
-**Preuve.**
+**Preuve.** Regardons de plus près $$(P \lor R) \land \overline{(Q \lor R)} \iff (P \lor R) \land (\overline{Q} \land \overline{R})$$ par négation de la conjonction. Cette dernière expression est équivalente à $$(P \land \overline{Q} \land \overline{R}) \lor (Q \land \overline{Q} \land \overline{R}) par distribution. Comme $Q \land \overline Q$$ est toujours fausse d'une part, et $$P \land \overline{Q}$$ est fausse par hypothèse d'autre part, on en déduit que l'expression ci-dessus est toujours fausse. Ainsi on a bien $$(P \lor R) \implies (Q \lor R)$$.
