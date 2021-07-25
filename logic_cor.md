@@ -77,6 +77,14 @@ Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$ et $$P$$ so
 **Preuve.** Puisque $$P$$ et $$Q \lor \overline P$$ sont vraies, leur conjonction l'est aussi. On a donc $$P \land (Q \lor \overline P)$$ vraie. Par distribution, $$P \land (Q \lor \overline P) \iff (P \land Q) \lor (P \land \overline{P})$$. Comme $$P \land \overline{P}$$ est toujours fausse, on a au final $$P \land (Q \lor \overline P) \iff (P \land Q)$$ et cette dernière expression est donc vraie. De plus, on a toujours $$\overline{Q} \implies \overline{P} \lor \overline{Q}$$ (via les implications gratuites), soit $$\overline{Q} \implies \overline{P \land Q}$$ par négation de la conjonction. Comme $$\overline{P \land Q}$$ est fausse, on conclut par l'absurde que $$Q$$ est vraie.
 
 
+__________
+### Corollaire (implication via déduction)
+Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P$$ vraie implique $$Q$$ vraie, alors l'implication $$P \implies Q$$ est vraie.
+
+
+**Preuve.** 
+
+
 _____
 ### Corollaire (proposition contraposée)
 Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\overline{Q} \implies \overline{P}$$.
@@ -99,7 +107,7 @@ Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies Q$$ et 
 
 
 __________
-### Corollaire (enrichissement d'implication)
+### Corollaire (rassemblement d'implications)
 Si $$P$$, $$Q$$, $$R$$ et $$S$$ sont quatre affirmations telles que $$P \implies Q$$ et $$R \implies S$$, alors on a l'implication $$(P \lor R) \implies (Q \lor S)$$.
 
 **Preuve.** Regardons de plus près l'expression $$(P \lor R) \land \overline{(Q \lor S)}$$, équivalente à $$(P \lor R) \land (\overline{Q} \land \overline{S})$$ par négation de la disjonction. Cette dernière expression est équivalente à $$(P \land \overline{Q} \land \overline{S}) \lor (R \land \overline{Q} \land \overline{S})$$ par associativité puis distribution. Comme $$R \land \overline S$$ et $$P \land \overline Q $$ sont toujours fausses par hypothèse, on en déduit que l'expression qui nous occupe est toujours fausse. Ainsi on a bien $$(P \lor R) \implies (Q \lor S)$$.
