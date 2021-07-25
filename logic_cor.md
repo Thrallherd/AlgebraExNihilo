@@ -49,7 +49,7 @@ Si $$P$$ et $$Q$$ sont deux affirmations, on a les deux équivalences $$\overlin
 
 
 __________
-### Reformulation de l'implication
+### Corollaire (reformulation de l'implication)
 $$P \implies Q$$ revient à dire que $$Q \lor \overline P$$ est vraie.
 
 **Preuve.** Comme $P \land \overline Q$$ est fausse, sa négation $$\overline{P \land \overline Q}$$ est vraie. Via le corollaire précédent, on en déduit que $$\overline P \lor \overline{\overline Q}$$ est vraie. Par l'axiome de remplacement et par le corollaire de double négation, on en déduit que $$\overline{P} \lor Q$$ est vraie. Par commutativité, on conclut bien que $$Q \lor \overline P$$ est vraie.
