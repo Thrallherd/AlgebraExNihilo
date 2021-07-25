@@ -84,14 +84,15 @@ Si $$P$$ et $$Q$$ sont deux affirmations telles que $$P \implies Q$$, alors $$\o
 **Preuve.** Comme $$P \implies Q$$, l'expression $$Q \lor \overline P$$ est vraie. D'après le corollaire de double négation, on a $$Q \iff \overline{\overline{Q}}$$ donc les expressions $$Q \lor \overline P$$ et $$\overline{\overline{Q}} \lor \overline P$$ sont équivalentes par l'axiome de remplacement. Avec le corollaire de commutativité, on a donc $$Q \lor \overline P \iff \overline{P} \lor \overline{\overline{Q}}$$. La deuxième expression signifiant $$\overline{Q} \implies \overline{P}$$, cela conclut.
 
 
+__________
+### Corollaire (disjonction des cas)
+Si $$P \implies R$$ et $$Q \implies R$$, alors $$(P \lor Q) \implies R$$.
+
+**Preuve.** Par hypothèse, $$P \land \overline R$$ et $$Q \land \overline R$$ sont fausses, donc leur disjonction $$(P \land \overline R) \lor (Q \land \overline R)$$ l'est aussi. Comme $$(P \land \overline R) \lor (Q \land \overline R)$ \iff (P \lor Q) \land \overline R$$, on en déduit que $$(P \lor Q) \land \overline R$$ est fausse, c'est-à-dire bien que $$(P \lor Q) \implies R$$.
 
 
 __________
-### Axiome second
-Si _P_ et _Q_ sont deux affirmations, alors $$P \implies (P \lor Q)$$ est vraie. Dit autrement, _P_ implique _P_ ou _Q_.
+### Corollaire (enrichissement d'implication)
+Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations, alors l'implication $$(P \implies Q) implique l'implication ((P \lor R) \implies (Q \lor R))$$.
 
-### Axiome troisième
-Si _P_ et _Q_ sont deux affirmations, alors $$(P \lor Q) \implies (Q \lor P)$$ est vraie. Dit autrement, _P_ ou _Q_ implique _Q_ ou _P_. Par symétrie, $$(Q \lor P) \implies (P \lor Q)$$ est vraie aussi et on a en fait l'équivalence $$(P \lor Q) \iff (Q \lor P)$$. 
-
-### Axiome quatrième
-Si _P_, _Q_ et _R_ sont trois affirmations, alors nous avons l'implication $$(P \implies Q) \implies ((P \lor R) \implies (Q \lor R))$$. Dit autrement, si _P_ implique _Q_, alors la disjonction _P_ ou _R_ implique la disjonction _Q_ ou _R_.
+**Preuve.**
