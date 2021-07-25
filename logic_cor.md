@@ -88,7 +88,7 @@ __________
 ### Corollaire (disjonction des cas)
 Si $$P$$, $$Q$$ et $$R$$ sont trois affirmations telles que $$P \implies R$$ et $$Q \implies R$$, alors $$(P \lor Q) \implies R$$.
 
-**Preuve.** Par hypothèse, $$P \land \overline R$$ et $$Q \land \overline R$$ sont fausses, donc leur disjonction $$(P \land \overline R) \lor (Q \land \overline R)$$ l'est aussi. Comme $$(P \land \overline R) \lor (Q \land \overline R)$ \iff (P \lor Q) \land \overline R$$, on en déduit que $$(P \lor Q) \land \overline R$$ est fausse, c'est-à-dire bien que $$(P \lor Q) \implies R$$.
+**Preuve.** Par hypothèse, $$P \land \overline R$$ et $$Q \land \overline R$$ sont fausses, donc leur disjonction $$(P \land \overline R) \lor (Q \land \overline R)$$ l'est aussi. Comme $$(P \land \overline R) \lor (Q \land \overline R) \iff (P \lor Q) \land \overline R$$, on en déduit que $$(P \lor Q) \land \overline R$$ est fausse, c'est-à-dire bien que $$(P \lor Q) \implies R$$.
 
 
 __________
