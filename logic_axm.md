@@ -8,7 +8,7 @@ handle: /logic_axm
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ### Axiome du tiers exclu
-Pour toute affirmation $$P$$, $$P$$ est vraie ou $$\overline P$$ est vraie, donc $$P \lor \overline P$$ est toujours vraie.
+Pour toute affirmation $$P$$, $$P$$ est vraie ou $$\overline P$$ est vraie, donc la disjonction $$P \lor \overline P$$ est toujours vraie.
 
 ### Axiome de dichotomie
 Deux expressions $$A$$ et $$B$$, rédigées à partir des mêmes affirmations dont les véracités n'ont pas encore été déterminées, telles que $$A \equiv B$$ quelles que soient les véracités des affirmations avec lesquelles elles ont été rédigées, sont équivalentes.
