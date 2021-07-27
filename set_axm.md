@@ -9,3 +9,6 @@ handle: /set_axm
 
 ### Axiome d'extensionnalité
 Il n'existe pas d'ensembles distincts qui ont les mêmes éléments. Autrement dit, si $$x$$ et $$y$$ sont deux ensembles, il y a équivalence entre l'affirmation « $$x = y$$ » et l'affirmation « pour tout ensemble $$z$$, on a $$z \in x \iff z \in y$$ ».
+
+### Axiome de la réunion
+Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les éléments des éléments de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe un ensemble $$y$$ tel que $$x \in y$$ et $$y \in a$$ ».
