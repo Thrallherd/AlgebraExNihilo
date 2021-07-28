@@ -16,5 +16,5 @@ On dit que deux ensembles $$x$$ et $$y$$ sont **égaux** s'ils représentent le 
 ### Appartenance
 Etant donnés deux ensembles $$x$$ et $$y$$, on dit que $$x$$ **appartient** à $$y$$ lorsque $$x$$ est contenu dans $$y$$. On dit aussi que $$x$$ est un **élément** de $$y$$, et on note alors $$x \in y$$. Si tel n'est pas le cas, on note $$x \notin y$$.
 
-### Sous-ensemble
-Etant donné un ensemble $$x$$, on dit que $$y$$ est un sous-ensemble de $$x$$ lorsque pour tout ensemble $$z$$, on a l'implication $$z \in y \implies z \in x$$. On note alors $$y \subseteq x$$.
+### Sous-ensembles
+Etant donné un ensemble $$x$$, on dit que $$y$$ est un **sous-ensemble** de $$x$$ lorsque pour tout ensemble $$z$$, on a l'implication $$z \in y \implies z \in x$$. On dit aussi que $$y$$ est **inclus** dans $$x$$,et on note $$y \subseteq x$$.
