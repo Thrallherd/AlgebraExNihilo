@@ -14,4 +14,4 @@ Il n'existe pas d'ensembles distincts qui ont les mêmes éléments. Autrement d
 Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les éléments des éléments de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe un ensemble $$y \in a$$ tel que $$x \in y$$ ».
 
 ### Axiome de compréhension
-Pour tout ensemble $$a$$ et pour toute affirmation $$P$$, il existe un unique sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x$$ vérifie $$P$$ ». 
+Pour tout ensemble $$a$$ et pour toute propriété $$P$$, il existe un unique sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x$$ vérifie $$P$$ ». 
