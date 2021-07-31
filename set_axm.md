@@ -13,10 +13,12 @@ Il n'existe pas d'ensembles distincts qui ont les mêmes éléments. Autrement d
 ### Axiome de la paire
 Etant donnés deux ensembles $$a$$ et $$b$$, il existe un ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x = a \lor x = b$$ ». L'axiome d'extensionnalité montre alors que $$c$$ est unique. L'ensemble $$c$$ est noté $$\{ a, b \}$$ et est appelé **paire** lorsque $$a \neq b$$. Dans le cas particulier où $$a = b$$, $$c$$ est appelé **singleton** et est noté simplement $$\{ a \}$$.
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#c5f015`
+### Axiome de compréhension
+Pour tout ensemble $$a$$ et pour toute propriété $$P$$, il existe un sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x$$ vérifie $$P$$ ». L'axiome d'extensionnalité montre alors que $$b$$ est unique.
 
 ### Axiome de la réunion
 Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les éléments des éléments de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe un ensemble $$y \in a$$ tel que $$x \in y$$ ».
 
-### Axiome de compréhension
-Pour tout ensemble $$a$$ et pour toute propriété $$P$$, il existe un unique sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x$$ vérifie $$P$$ ». 
+### Axiome de l'ensemble des parties
+Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les sous-ensembles de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x \subseteq a$$ ».
+
