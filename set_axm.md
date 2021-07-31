@@ -11,7 +11,9 @@ handle: /set_axm
 Il n'existe pas d'ensembles distincts qui ont les mêmes éléments. Autrement dit, si $$x$$ et $$y$$ sont deux ensembles, il y a équivalence entre l'affirmation « $$x = y$$ » et l'affirmation « pour tout ensemble $$z$$, on a $$z \in x \iff z \in y$$ ».
 
 ### Axiome de la paire
-Etant donnés deux ensembles $$a$$ et $$b$$, il existe un ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x = a \lor x = b$$ ». L'axiome d'extensionnalité montre alors que $$c$$ est unique. L'ensemble $$c$$ est noté $$\{ a, b \}$$ et est appelé **paire** lorsque $$a \neq b$$. Dans le cas particulier où $$a = b$$, $$c$$ est un **singleton** et est noté $$\{ a \}$$.
+Etant donnés deux ensembles $$a$$ et $$b$$, il existe un ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x = a \lor x = b$$ ». L'axiome d'extensionnalité montre alors que $$c$$ est unique. L'ensemble $$c$$ est noté $$\{ a, b \}$$ et est appelé **paire** lorsque $$a \neq b$$. Dans le cas particulier où $$a = b$$, $$c$$ est appelé **singleton** et est noté simplement $$\{ a \}$$.
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#c5f015`
 
 ### Axiome de la réunion
 Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les éléments des éléments de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe un ensemble $$y \in a$$ tel que $$x \in y$$ ».
