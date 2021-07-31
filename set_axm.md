@@ -17,8 +17,8 @@ Etant donnés deux ensembles $$a$$ et $$b$$, il existe un ensemble $$c$$ tel que
 Pour tout ensemble $$a$$ et pour toute propriété $$P$$, il existe un sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x$$ vérifie $$P$$ ». L'axiome d'extensionnalité montre alors que $$b$$ est unique.
 
 ### Axiome de la réunion
-Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les éléments des éléments de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe un ensemble $$y \in a$$ tel que $$x \in y$$ ».
+Pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe un ensemble $$y \in a$$ tel que $$x \in y$$ ».
 
 ### Axiome de l'ensemble des parties
-Pour tout ensemble $$a$$, il existe un ensemble $$b$$ qui contient tous les sous-ensembles de $$a$$. Autrement dit, pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x \subseteq a$$ ».
+Pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x \subseteq a$$ ».
 
