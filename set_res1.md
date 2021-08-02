@@ -23,3 +23,8 @@ Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel qu
 Il existe un unique ensemble ne contenant aucun élément. On l'appelle l'**ensemble vide** et on le note $$\varnothing$$.
 
 **Preuve.** Soit $$a$$ un ensemble et notons $$P$$ la propriété de non-appartenance à $$a$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in b$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation est donc équivalente à « $$x \in a \land x \notin a$$ », laquelle est toujours fausse puisqu'elle est de la forme $$Q \land \overline Q$$. Nous avons donc montré l'existe d'un unique ensemble $$b$$ tel que pour tout ensemble $$x$$, on ait $$x \notin b$$.
+
+### Couple de deux ensembles
+Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l'ensemble $$\{ \{ a \}, \{ a, b \} \}$$ et on le note $$(a, b)$$.
+
+**Preuve.** Nous n'avons qu'à montrer l'existence de cet ensemble. L'axiome de la paire validant l'existence des ensembles $$\{ a \}$$ et $$\{a, b \]$$, on l'applique une troisième fois pour obtenir l'existence de l'ensemble donné dans l'énoncé.
