@@ -11,4 +11,4 @@ Cette modeste page se propose de générer toute l'algèbre moderne simplement �
 
 Nous commençons par [quelques définitions logiques](logic_def.md). Sur ces définitions, nous suggérons [quatre axiomes logiques](logic_axm.md) grâce auxquels nous pourrons rédiger un certain nombre de [corollaires](logic_cor.md). Le cadre logique étant posé, nous avons à présent tous les outils nécessaires pour rédiger des démonstrations.
 
-Nous poursuivons alors par [quelques définitions ensemblistes](set_def.md). Sur ces définitions, nous reprenons un certain nombre d'[axiomes ensemblistes](set_axm.md) sur lesquels nous allons pouvoir fonder toute la théorie algébrique.
+Nous poursuivons alors par [quelques définitions ensemblistes](set_def.md). A ces définitions, nous ajoutons tout d'abord [cinq axiomes ensemblistes](set_axm.md) qui vous nous permettre de donner [quelques premiers résultats](set_res1.md).
