@@ -20,6 +20,6 @@ Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel qu
 **Preuve.** Notons $$P$$ la propriété d'appartenance à l'ensemble $$b$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$c \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in c$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation étant encore équivalente à « $$x \in a \land x \in b$$ », cela conclut.
 
 ### Ensemble vide
-Il existe un unique ensemble ne contenant aucun élément. On l'appelle l'**ensemble vide** et on le note $$\emptyset$$.
+Il existe un unique ensemble ne contenant aucun élément. On l'appelle l'**ensemble vide** et on le note $$\varnothing$$.
 
 **Preuve.** Soit $$a$$ un ensemble et notons $$P$$ la propriété de non-appartenance à $$a$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in b$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation est donc équivalente à « $$x \in a \land x \notin a$$ », laquelle est toujours fausse puisqu'elle est de la forme $$Q \land \overline Q$$. Nous avons donc montré l'existe d'un unique ensemble $$b$$ tel que pour tout ensemble $$x$$, on ait $$x \notin b$$.
