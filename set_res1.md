@@ -12,4 +12,4 @@ A partir des [cinq premiers axiomes](set_axm.md), nous pouvons apporter quelques
 ### Union de deux ensembles
 Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x \in a \lor x \in b$$ ». Cet ensemble $$c$$ est noté $$a \cup b$$.
 
-**Preuve.** D'après l'axiome de la paire, il existe l'ensemble $$p = \{ a, b \}$$. D'après l'axiome de la réunion, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « il existe $$y \in p$$ tel que $$x \in y$$ ». Comme cette dernière affirmation est équivalente à « $$x \in a \lor x \in b$$ », cela conclut.
+**Preuve.** D'après l'axiome de la paire, il existe l'ensemble $$p = \{ a, b \}$$. D'après l'axiome de la réunion, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « il existe $$y \in p$$ tel que $$x \in y$$ ». Cette dernière affirmation étant encore équivalente à « $$x \in a \lor x \in b$$ », cela conclut.
