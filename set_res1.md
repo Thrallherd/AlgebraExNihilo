@@ -35,4 +35,4 @@ Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l
 ### Produit cartésien de deux ensembles
 Etant donnés deux ensembles $$a$$ et $$b$$, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$z$$, il  y ait équivalence entre les affirmations « $$z \in c$$ » et « il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$ ».
 
-**Preuve.**
+**Preuve.** Notons $$u$$ l'ensemble des parties de$$a \cup b$$ et $$P$$ la propriété d'être égal à un couple $$(x, y)$$ tel que $$x \in a$$ et $$y \in b$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$c \subset u$$ tel qu'il  y ait équivalence entre les affirmations « $$z \in c$$ » et « $$z \in u \land z$$ vérifie $$P$$ ». Cette dernière affirmation étant équivalente à « $$z \in u \land$$ il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$. Le fait que $$z$$ soit le couple d'un élément de $$a$$ et d'un élément de $$b$$ impose *de facto* que $$z$$ appartienne à $$u$$, on conclut donc qu'il y a équivalence entre les affirmations « $$z \in c$$ » et « il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$ ».
