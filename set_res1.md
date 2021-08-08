@@ -10,7 +10,7 @@ handle: /set_res1
 ### Ensemble de compréhension
 Si $$a$$ est un ensemble et $$P$$ est une propriété, l'unique ensemble $$b$$ des éléments de $$a$$ vérifiant $$P$$ est un sous-ensemble de $$a$$.
 
-**Preuve.** Si $$x$$ est un ensemble appartenant à $$b$$, alors $$x$$ est un ensemble appartenant à $$a$$ vérifiant la propriété $$P$$. Donc $$x \in a$$. On a donc bien $$x \in b \implies x \in a$$ d'où $$b \subseteq a$$.
+**Preuve.** Si $$x$$ est un ensemble appartenant à $$b$$, alors $$x$$ est un ensemble appartenant à $$a$$ vérifiant la propriété $$P$$, donc $$x \in a$$. On a donc bien $$x \in b \implies x \in a$$, d'où $$b \subseteq a$$.
 
 ### Union de deux ensembles
 Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x \in a \lor x \in b$$ ». On l'appelle l'**union** de $$a$$ et de $$b$$ et on le note $$a \cup b$$.
@@ -25,7 +25,7 @@ Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel qu
 ### Ensemble vide
 Il existe un unique ensemble ne contenant aucun élément. On l'appelle l'**ensemble vide** et on le note $$\varnothing$$.
 
-**Preuve.** Soit $$a$$ un ensemble et notons $$P$$ la propriété de non-appartenance à $$a$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in b$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation est donc équivalente à « $$x \in a \land x \notin a$$ », laquelle est toujours fausse puisqu'elle est de la forme $$Q \land \overline Q$$. Nous avons donc montré l'existe d'un unique ensemble $$b$$ tel que pour tout ensemble $$x$$, on ait $$x \notin b$$.
+**Preuve.** Soit $$a$$ un ensemble et notons $$P$$ la propriété de non-appartenance à $$a$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$b \in a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in b$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation est donc équivalente à « $$x \in a \land x \notin a$$ », laquelle est toujours fausse puisqu'elle est de la forme $$Q \land \overline Q$$. Nous avons donc montré l'existe d'un unique ensemble $$b$$ tel que pour tout ensemble $$x$$, on ait $$x \notin b$$.
 
 ### Couple d'ensembles
 Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l'ensemble $$\{ \{ a \}, \{ a, b \} \}$$ et on le note $$(a, b)$$.
