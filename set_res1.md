@@ -7,6 +7,11 @@ handle: /set_res1
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+### Ensemble de compréhension
+Si $$a$$ est un ensemble et $$P$$ est une propriété, l'unique ensemble $$b$$ des éléments de $$a$$ vérifiant $$P$$ est un sous-ensemble de $$a$$.
+
+**Preuve.** Si $$x$$ est un ensemble appartenant à $$b$$, alors $$x$$ est un ensemble appartenant à $$a$$ vérifiant la propriété $$P$$. Donc $$x \in a$$. On a donc bien $$x \in b \implies x \in a$$ d'où $$b \subseteq a$$.
+
 ### Union de deux ensembles
 Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x \in a \lor x \in b$$ ». On l'appelle l'**union** de $$a$$ et de $$b$$ et on le note $$a \cup b$$.
 
