@@ -31,3 +31,8 @@ Il existe un unique ensemble ne contenant aucun élément. On l'appelle l'**ense
 Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l'ensemble $$\{ \{ a \}, \{ a, b \} \}$$ et on le note $$(a, b)$$.
 
 **Preuve.** Nous n'avons qu'à montrer l'existence de cet ensemble. L'axiome de la paire validant l'existence des ensembles $$\{ a \}$$ et $$\{a, b \}$$, on l'applique une troisième fois avec ces deux derniers pour obtenir l'existence de l'ensemble donné dans l'énoncé.
+
+### Produit cartésien de deux ensembles
+Etant donnés deux ensembles $$a$$ et $$b$$, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il  y ait équivalence entre les affirmations «$$x \in c$$ » et « il existe $$x \in a$$ et $$y \in b$$ tel que $$x = (x, y)$$ ».
+
+**Preuve.**
