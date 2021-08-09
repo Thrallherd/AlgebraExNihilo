@@ -26,13 +26,3 @@ Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel qu
 Il existe un unique ensemble ne contenant aucun élément. On l'appelle l'**ensemble vide** et on le note $$\varnothing$$.
 
 **Preuve.** Soit $$a$$ un ensemble et notons $$P$$ la propriété de non-appartenance à $$a$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$b \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in b$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation est donc équivalente à « $$x \in a \land x \notin a$$ », laquelle est toujours fausse puisqu'elle est de la forme $$Q \land \overline Q$$. Nous avons donc montré l'existe d'un unique ensemble $$b$$ tel que pour tout ensemble $$x$$, on ait $$x \notin b$$.
-
-### Couple d'ensembles
-Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l'ensemble $$\{ \{ a \}, \{ a, b \} \}$$ et on le note $$(a, b)$$.
-
-**Preuve.** Nous n'avons qu'à montrer l'existence de cet ensemble. L'axiome de la paire validant l'existence des ensembles $$\{ a \}$$ et $$\{a, b \}$$, on l'applique une troisième fois avec ces deux derniers pour obtenir l'existence de l'ensemble donné dans l'énoncé.
-
-### Produit cartésien de deux ensembles
-Etant donnés deux ensembles $$a$$ et $$b$$, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$z$$, il  y ait équivalence entre les affirmations « $$z \in c$$ » et « il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$ ». On appelle cet ensemble le **produit cartésien** de $$a$$ et de $$b$$, et on le note $$a \times b$$.
-
-**Preuve.** Notons $$u$$ l'ensemble des parties de $$a \cup b$$ et $$P$$ la propriété d'être égal à un couple $$(x, y)$$ tel que $$x \in a$$ et $$y \in b$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$c \subseteq u$$ tel qu'il  y ait équivalence entre les affirmations « $$z \in c$$ » et « $$z \in u \land z$$ vérifie $$P$$ ». Cette dernière affirmation est équivalente à « $$z \in u~\land$$ il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$ ». Le fait que $$z$$ soit le couple d'un élément de $$a$$ et d'un élément de $$b$$ impose *de facto* que $$z$$ appartienne à $$u$$, on conclut donc qu'il y a équivalence entre les affirmations « $$z \in c$$ » et « il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$ ».
