@@ -10,7 +10,7 @@ handle: /set_res1
 ### Unicité des singletons
 Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff \{ a \} = \{ b \}$$.
 
-**Preuve.**
+**Preuve.** Si $$a = b$$, alors $$a \in \{ b \}$$ donc $$ \{ a \} \subseteq \{ b \}$$. Par symétrie des rôles joués par ces deux ensembles, on conclut que $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
 
 ### Ensemble de compréhension
 Si $$a$$ est un ensemble et $$P$$ est une propriété, l'unique ensemble $$b$$ des éléments de $$a$$ vérifiant $$P$$ est un sous-ensemble de $$a$$.
