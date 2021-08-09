@@ -28,3 +28,8 @@ Etant donnés deux ensembles $$a$$ et $$b$$, il existe un unique ensemble $$c$$ 
 
 ### Triplet d'ensembles
 Si $$a$$, $$b$$ et $$c$$ sont trois ensembles, on appelle **triplet** de $$a$$, $$b$$ et $$c$$ le couple $$((a, b), c)$$, c'est-à-dire l'ensemble $$\{ \{ (a, b) \}, \{ (a, b), c \} \}$$ et on le note $$(a, b, c)$$.
+
+### Unicité des triplets
+Si $$a$$, $$b$$, $$c$$, $$x$$, $$y$$ et $$z$$ sont six ensembles, il y a équivalence entre les deux affirmations « $$(a, b, c) = (x, y, z)$$ » et « $$a = x \land b = y \land c = z$$ ».
+
+**Preuve.** Si $$(a, b, c) = (x, y, z)$$, alors par définition on a $$((a, b), c) = ((x, y), z)$$. Par unicité des couples, on a donc $$(a, b) = (x, y)$$ et $$c = z$$, soit encore $$a = x$$, $$b = y$$ et $$c = z$$. Réciproquement si nous avons ces trois égalités, alors $$(a, b) = (x, y)$$, et par unicité des couples, on a bien $$((a, b), c) = ((x, y), z)$$, ce qui conclut.
