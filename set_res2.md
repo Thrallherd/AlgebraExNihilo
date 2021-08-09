@@ -13,7 +13,7 @@ Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l
 **Preuve.** Nous n'avons qu'à montrer l'existence de cet ensemble. L'axiome de la paire validant l'existence des ensembles $$\{ a \}$$ et $$\{a, b \}$$, on l'applique une troisième fois avec ces deux derniers pour obtenir l'existence de l'ensemble donné dans l'énoncé.
 
 ### Unicité des couples
-Si $$a$$, $$b$$, $$c$$ et $$d$$ sont quatre ensembles, il y a équivalence entre les affirmations « $$(a, b) = (c, d)$$ » et « $$a = c \land b = d$$ ».
+Si $$a$$, $$b$$, $$c$$ et $$d$$ sont quatre ensembles, il y a équivalence entre les deux affirmations « $$(a, b) = (c, d)$$ » et « $$a = c \land b = d$$ ».
 
 **Preuve.** Si $$a = c \land b = d$$, alors d'une part on a $$\{ a \} = \{ c \}$$ et d'autre part $$\{a, b\} = \{c, d\}$$. Il y a inclusion réciproque entre les ensembles $$\{ \{ a \}, \{ a, b \} \}$$ et $$\{ \{ c \}, \{ c, d \} \}$$, ils sont donc égaux. Réciproquement si ces ensembles sont égaux, nous allons faire une disjonction de cas. 
 
