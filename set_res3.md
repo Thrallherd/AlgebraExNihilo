@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Définition des fonctions
+title: Axiome de l'ensemble des parties et conséquences
 language: fr
 handle: /set_res3
 ---
