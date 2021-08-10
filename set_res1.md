@@ -10,7 +10,7 @@ handle: /set_res1
 ### Unicité des singletons
 Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff \{ a \} = \{ b \}$$.
 
-**Preuve.** Si $$a = b$$, alors $$a \in \{ b \}$$ donc $$ \{ a \} \subseteq \{ b \}$$. Par symétrie des rôles joués par ces deux ensembles, on conclut que $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
+**Preuve.** Si $$a = b$$, alors pour tout ensemble $$x$$ vérifiant $$x \in \{ a \}$$, on a $$x = a$$ donc $$x = b$$ et $$x \in \{ b \}$$. Ainsi on a l'implication $$x \in \{ a \} \implies x \in \{ b \}$$. On montre l'implication inverse de la même manière, si bien qu'on a l'équivalence $$x \in \{ a \} \iff x \in \{ b \}$$. Par application de l'axiome d'extensionnalité, on conclut que $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
 
 ### Ensemble de compréhension
 Si $$a$$ est un ensemble et $$P$$ est une propriété, l'unique ensemble $$b$$ des éléments de $$a$$ vérifiant $$P$$ est un sous-ensemble de $$a$$.
