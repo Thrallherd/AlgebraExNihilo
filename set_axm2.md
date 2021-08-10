@@ -9,5 +9,4 @@ handle: /set_axm
 
 
 
-### Axiome de l'ensemble des parties
-Pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x \subseteq a$$ ». L'axiome d'extensionnalité montre alors que $$b$$ est unique.
+
