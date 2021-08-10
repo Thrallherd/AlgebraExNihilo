@@ -17,5 +17,5 @@ Nous proposons de faire les choses dans cet ordre :
 * [quatre axiomes](set_axm.md).
 * [premiers résultats](set_res1.md), notamment sur l'existence de l'ensemble vide.
 * [construction des entiers naturels et axiome de l'infini](set_res2.md).
-* [axiome de l'ensemble des parties et ses conséuences](set_res3.md).
-* [définition des fonctions et leurs résultats](set_res4.md).
+* [axiome de l'ensemble des parties et ses conséquences](set_res3.md) (couple, produit cartésien).
+* [définition des fonctions et résultats généraux](set_res4.md).
