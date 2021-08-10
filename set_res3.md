@@ -2,7 +2,7 @@
 layout: default
 title: Définition des fonctions
 language: fr
-handle: /set_res2
+handle: /set_res3
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
