@@ -33,3 +33,6 @@ Si $$a$$, $$b$$ et $$c$$ sont trois ensembles, on appelle **triplet** de $$a$$, 
 Si $$a$$, $$b$$, $$c$$, $$x$$, $$y$$ et $$z$$ sont six ensembles, il y a équivalence entre les deux affirmations « $$(a, b, c) = (x, y, z)$$ » et « $$a = x \land b = y \land c = z$$ ».
 
 **Preuve.** Si $$(a, b, c) = (x, y, z)$$, alors par définition on a $$((a, b), c) = ((x, y), z)$$. Par unicité des couples, on a donc $$(a, b) = (x, y)$$ et $$c = z$$, soit encore $$a = x$$, $$b = y$$ et $$c = z$$. Réciproquement si nous avons ces trois égalités, alors $$(a, b) = (x, y)$$, et par unicité des couples, on a bien $$((a, b), c) = ((x, y), z)$$, ce qui conclut.
+
+### Produit cartésien de trois ensembles
+On appelle **produit cartésien** de trois ensembles $$a$$, $$b$$ et $$c$$ l'ensemble $$(a \times b) \times c$$. C'est l'ensemble de tous les triplets $$(x, y, z)$$ tels que $$x \in a \land y \in b \land z \in c$$. Par abus, on note cet ensemble $$a \times b \times c$$.
