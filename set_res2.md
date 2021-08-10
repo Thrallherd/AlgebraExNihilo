@@ -41,4 +41,4 @@ On appelle **produit cartésien** de trois ensembles $$a$$, $$b$$ et $$c$$ l'ens
 On dit que l'ensemble $$c$$ est une **carte** de l'ensemble $$a$$ vers l'ensemble $$b$$ lorsque $$c \subseteq a \times b$$ et si pour tout ensemble $$x \in a$$ et $$y, z \in b$$, il y a équivalence entre les affirmations « $$(x, y) \in c \land (x, z) \in c$$ » et « $$y = z$$ ».
 
 ### Fonction entre deux ensembles
-On dit que l'ensemble $$f$$ est une **fonction** d'un ensemble $$a$$ vers un ensemble $$b$$ s'il existe une carte $$c$$ telle que $$f = a \times b \times c$$.
+On dit que l'ensemble $$f$$ est une **fonction** d'un ensemble $$a$$ vers un ensemble $$b$$ s'il existe une carte $$c$$ telle que $$f = a \times b \times c$$. Pour tout ensemble $$x \in a$$, s'il existe $$y \in b$$ tel que $$(x, y) \in c$$, alors $$y$$ est unique (par définition d'une carte) et on le notera également $$f(x)$$.
