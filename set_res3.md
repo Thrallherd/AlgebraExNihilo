@@ -21,6 +21,9 @@ Si $$a$$, $$b$$, $$c$$ et $$d$$ sont quatre ensembles, il y a équivalence entre
 
 * Si $$a \neq b$$, alors $$(a, b)$$ est un ensemble à deux éléments. Il en va donc de même pour l'ensemble $$(c, d)$$. Par inclusion de $$(a, b)$$ dans $$(c, d)$$, on a donc $$\{ a \} \in \{ \{ c \}, \{ c, d \} \}$$. Si $$ \{ a \} = \{ c, d \}$$, un ensemble à un élément serait égal à un ensemble à deux éléments, ce qui n'est pas possible, donc $$\{ a \} \neq \{ c, d \}$$. Si $$\{ a \} \neq \{ c \}$$ non plus, alors $$\{ a \} \notin (c, d)$$. On conclut donc par l'absurde que $$\{ a \} = \{ c \}$$, soit finalement $$a = c$$. Comme $$\{ a, b \} \neq \{ a \}$$, si $$\{ a, b \} \neq \{ c, d \}$$ on aurait alors $$\{ a, b \} \notin (c, d)$$, ce qui est exclu. On a donc $$\{ a, b \} = \{ c, d \}$$ par l'absurde. Comme $$b \in \{ c, d \}$$, si $$b = c$$, alors $$b = a$$ qui est faux. On a donc par l'absurde $$b = d$$.
 
+### Axiome de l'ensemble des parties
+Pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x \subseteq a$$ ». L'axiome d'extensionnalité montre alors que $$b$$ est unique.
+
 ### Produit cartésien de deux ensembles
 Etant donnés deux ensembles $$a$$ et $$b$$, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$z$$, il  y ait équivalence entre les affirmations « $$z \in c$$ » et « il existe $$x \in a$$ et $$y \in b$$ tel que $$z = (x, y)$$ ». On appelle cet ensemble le **produit cartésien** de $$a$$ et de $$b$$, et on le note $$a \times b$$.
 
@@ -36,9 +39,3 @@ Si $$a$$, $$b$$, $$c$$, $$x$$, $$y$$ et $$z$$ sont six ensembles, il y a équiva
 
 ### Produit cartésien de trois ensembles
 On appelle **produit cartésien** de trois ensembles $$a$$, $$b$$ et $$c$$ l'ensemble $$(a \times b) \times c$$. C'est l'ensemble de tous les triplets $$(x, y, z)$$ tels que $$x \in a \land y \in b \land z \in c$$. Par abus, on note cet ensemble $$a \times b \times c$$.
-
-### Carte entre deux ensembles (terme propre à ce site)
-On dit que l'ensemble $$c$$ est une **carte** de l'ensemble $$a$$ vers l'ensemble $$b$$ si on a l'inclusion $$c \subseteq a \times b$$ et si pour tout ensemble $$x \in a$$ et $$y, z \in b$$, on a l'implication « $$(x, y) \in c \land (x, z) \in c \implies y = z$$ ».
-
-### Fonction entre deux ensembles
-On dit que l'ensemble $$f$$ est une **fonction** d'un ensemble $$a$$ vers un ensemble $$b$$ s'il existe une carte $$c$$ de $$a$$ vers $$b$$ telle que $$f = a \times b \times c$$. Pour tout ensemble $$x \in a$$, s'il existe $$y \in b$$ tel que $$(x, y) \in c$$, alors $$y$$ est unique (par définition d'une carte) et on le notera $$f(x)$$.
