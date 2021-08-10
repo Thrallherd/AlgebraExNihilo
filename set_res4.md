@@ -1,3 +1,12 @@
+---
+layout: default
+title: Fonctions et résultats généraux
+language: fr
+handle: /set_res4
+---
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ### Carte entre deux ensembles (terme propre à ce site)
 On dit que l'ensemble $$c$$ est une **carte** de l'ensemble $$a$$ vers l'ensemble $$b$$ si on a l'inclusion $$c \subseteq a \times b$$ et si pour tout ensemble $$x \in a$$ et $$y, z \in b$$, on a l'implication « $$(x, y) \in c \land (x, z) \in c \implies y = z$$ ».
 
