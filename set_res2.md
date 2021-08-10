@@ -14,7 +14,7 @@ On appelle **entier naturel** l'ensemble vide, ainsi que tout ensemble $$y$$ pou
 On utilisera les symboles suivants pour les dix premiers entiers naturels :
 
 | Symbole | Ensemble |
-| --- | ----------- |
+| :-----: | :------: |
 | 0 | $$\varnothing$$ |
 | 1 | $$0 \cup \{ 0 \} = \{ 0 \}$$ |
 | 2 | $$1 \cup \{ 1 \} = \{ 0, 1 \}$$ |
