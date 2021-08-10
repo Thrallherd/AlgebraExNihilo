@@ -13,8 +13,8 @@ Nous commençons par [quelques définitions logiques](logic_def.md). Sur ces dé
 
 Nous proposons de faire les choses dans cet ordre :
 
-* [premières définitions](set_def.md).
-* [quatre axiomes](set_axm.md).
+* [définitions initiales](set_def.md).
+* [quatre axiomes de base](set_axm.md).
 * [premiers résultats](set_res1.md), notamment l'existence de l'ensemble vide.
 * [construction des entiers naturels et axiome de l'infini](set_res2.md).
 * [axiome de l'ensemble des parties et conséquences](set_res3.md).
