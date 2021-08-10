@@ -13,6 +13,10 @@ On appelle **entier naturel** l'ensemble vide, ainsi que tout ensemble $$y$$ pou
 ### Premiers entiers naturels
 On utilisera les symboles suivants pour les dix premiers entiers naturels :
 
-* $$0 = \varnothing$$
-* $$1 = \{ 0 \}$$
-* $$2 = \{ 0, 1 \}$$
+| Symbole | Ensemble |
+| --- | ----------- |
+| 0 | $$\varnothing$$ |
+| 1 | $$0 \cup \{ 0 \} = \{ 0 \}$$ |
+| 2 | $$1 \cup \{ 1 \} = \{ 0, 1 \}$$ |
+| 3 | $$2 \cup \{ 2 \} = \{ 0, 1, 2 \}$$ |
+| 4 | $$3 \cup \{ 3 \} = \{ 0, 1, 2, 3 \}$$ |
