@@ -7,20 +7,6 @@ handle: /set_res3
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-### Couple d'ensembles
-Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l'ensemble $$\{ \{ a \}, \{ a, b \} \}$$ et on le note $$(a, b)$$.
-
-**Preuve.** Nous n'avons qu'à montrer l'existence de cet ensemble. L'axiome de la paire validant l'existence des ensembles $$\{ a \}$$ et $$\{a, b \}$$, on l'applique une troisième fois avec ces deux derniers pour obtenir l'existence de l'ensemble donné dans l'énoncé.
-
-### Unicité des couples
-Si $$a$$, $$b$$, $$c$$ et $$d$$ sont quatre ensembles, il y a équivalence entre les deux affirmations « $$(a, b) = (c, d)$$ » et « $$a = c \land b = d$$ ».
-
-**Preuve.** Si $$a = c \land b = d$$, alors d'une part on a $$\{ a \} = \{ c \}$$ et d'autre part $$\{a, b\} = \{c, d\}$$. Il y a inclusion réciproque entre les ensembles $$\{ \{ a \}, \{ a, b \} \}$$ et $$\{ \{ c \}, \{ c, d \} \}$$, ils sont donc égaux. Réciproquement si ces ensembles sont égaux, nous allons faire une disjonction de cas. 
-
-* Si $$a = b$$, alors $$(a, b)$$ est un ensemble à un élément : le singleton $$\{ a \}$$. Il en va donc de même pour l'ensemble $$(c, d)$$, donc les ensembles $$\{ c \}$$ et $$\{ c, d \}$$ sont égaux. Si $$d \neq c$$, $$\{ c, d \}$$ et donc $$\{ c \}$$ contiendraient deux éléments. On conclut par l'absurde que $$c = d$$.
-
-* Si $$a \neq b$$, alors $$(a, b)$$ est un ensemble à deux éléments. Il en va donc de même pour l'ensemble $$(c, d)$$. Par inclusion de $$(a, b)$$ dans $$(c, d)$$, on a donc $$\{ a \} \in \{ \{ c \}, \{ c, d \} \}$$. Si $$ \{ a \} = \{ c, d \}$$, un ensemble à un élément serait égal à un ensemble à deux éléments, ce qui n'est pas possible, donc $$\{ a \} \neq \{ c, d \}$$. Si $$\{ a \} \neq \{ c \}$$ non plus, alors $$\{ a \} \notin (c, d)$$. On conclut donc par l'absurde que $$\{ a \} = \{ c \}$$, soit finalement $$a = c$$. Comme $$\{ a, b \} \neq \{ a \}$$, si $$\{ a, b \} \neq \{ c, d \}$$ on aurait alors $$\{ a, b \} \notin (c, d)$$, ce qui est exclu. On a donc $$\{ a, b \} = \{ c, d \}$$ par l'absurde. Comme $$b \in \{ c, d \}$$, si $$b = c$$, alors $$b = a$$ qui est faux. On a donc par l'absurde $$b = d$$.
-
 ### Axiome de l'ensemble des parties
 Pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « $$x \subseteq a$$ ». L'axiome d'extensionnalité montre alors que $$b$$ est unique.
 
