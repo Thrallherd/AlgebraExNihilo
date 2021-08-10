@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Construction des entiers naturels
+title: Construction des entiers naturels et de leur ensemble
 language: fr
 handle: /set_res3
 ---
