@@ -14,7 +14,7 @@ On dit que l'ensemble $$c$$ est une **carte** de l'ensemble $$a$$ vers l'ensembl
 On dit que l'ensemble $$f$$ est une **fonction** d'un ensemble $$a$$ vers un ensemble $$b$$ s'il existe une carte $$c$$ de $$a$$ vers $$b$$ telle que $$f = a \times b \times c$$, et on note dans ce cas $$f : a \to b$$. Pour tout ensemble $$x \in a$$, s'il existe $$y \in b$$ tel que $$(x, y) \in c$$, alors $$y$$ est unique (par définition d'une carte) et on le notera $$f(x)$$.
 
 ### Ensemble de définition
-Soit $$f : a \to b$$. On appelle **ensemble de définition** de la fonction $$f$$ l'ensemble $$d \subseteq a$$ tel que pour tout $$x \in d$$, $$f(x)$$ existe.
+Soit $$f : a \to b$$. On appelle **ensemble de définition** de la fonction $$f$$ l'ensemble $$d \subseteq a$$ tel que pour tout $$x \in d$$, il existe $$y \in b$$ tel que $$f(x) = y$$.
 
 **Preuve.** Il faut montrer ici que $$d$$ existe et est un ensemble. Soit $$c \subseteq a \times b$$ la carte telle que $$f = a \times b \times c$$. Etant donné un ensemble générique $$x$$, on note $$P$$ la propriété « il existe un ensemble $$y \in b$$ tel que $$(x, y) \in c$$ ». D'après l'axiome de compréhension, il existe un unique ensemble $$d \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in d$$ » et « $$x \in a \land x$$ vérifie $$P$$ ». Ceci conclut.
 
