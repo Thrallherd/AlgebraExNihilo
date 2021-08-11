@@ -10,7 +10,7 @@ handle: /set_res1
 ### Egalité par double inclusion
 Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff a \subseteq b \land b \subseteq a$$.
 
-**Preuve.** Si $$a = b$$, alors pour tout ensemble $$x \in a$$, on a également $$x \in b$$. L'implication $$x \in a \implies x \in b$$ est donc vérifiée, et on a $$a \subseteq b$$. On montre de la même manière que $$b \subseteq a$$, ainsi $$a = b \implies a \subseteq b \land b \subseteq a}$$. Réciproquement s'il y a double inclusion, alors pour tout ensemble $$x$$ il y a équivalence entre les affirmations « $$x \in a$$ » et « $$x \in b$$ ». L'axiome d'extensionnalité montre alors que $$a = b$$.
+**Preuve.** Si $$a = b$$, alors pour tout ensemble $$x \in a$$, on a également $$x \in b$$. L'implication $$x \in a \implies x \in b$$ est donc vérifiée, et on a $$a \subseteq b$$. On montre de la même manière que $$b \subseteq a$$, ainsi $$a = b \implies a \subseteq b \land b \subseteq a$$. Réciproquement s'il y a double inclusion, alors pour tout ensemble $$x$$ il y a équivalence entre les affirmations « $$x \in a$$ » et « $$x \in b$$ ». L'axiome d'extensionnalité montre alors que $$a = b$$.
 
 ### Unicité des singletons
 Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff \{ a \} = \{ b \}$$.
