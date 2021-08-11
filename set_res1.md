@@ -7,10 +7,15 @@ handle: /set_res1
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+### Egalité par double inclusion
+Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff a \subseteq b \land b \subseteq a$$.
+
+**Preuve.** Si $$a = b$$, alors pour tout ensemble $$x \in a$$, on a également $$x \in b$$. L'implication $$x \in a \implies x \in b$$ est donc vérifiée, et on a $$a \subseteq b$$. On montre de la même manière que $$b \subseteq a$$, ainsi $$a = b \implies a \subseteq b \land b \subseteq a}$$. Réciproquement s'il y a double inclusion, alors pour tout ensemble $$x$$ il y a équivalence entre les affirmations « $$x \in a$$ » et « $$x \in b$$ ». L'axiome d'extensionnalité montre alors que $$a = b$$.
+
 ### Unicité des singletons
 Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff \{ a \} = \{ b \}$$.
 
-**Preuve.** Si $$a = b$$, alors pour tout ensemble $$x$$ vérifiant $$x \in \{ a \}$$, on a $$x = a$$ donc $$x = b$$ et $$x \in \{ b \}$$. Ainsi on a l'implication $$x \in \{ a \} \implies x \in \{ b \}$$. On montre l'implication inverse de la même manière, si bien qu'on a l'équivalence $$x \in \{ a \} \iff x \in \{ b \}$$. Par application de l'axiome d'extensionnalité, on conclut que $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
+**Preuve.** Si $$a = b$$, alors les ensembles $$\{ a \}$$ et $$\{ b \}$$ désignent le même ensemble : l'ensemble contenant $$a$$ et $$a$$ seulement. On a donc $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
 
 ### Ensemble de compréhension
 Si $$a$$ est un ensemble et $$P$$ est une propriété, l'unique ensemble $$b$$ des éléments de $$a$$ vérifiant $$P$$ est un sous-ensemble de $$a$$.
