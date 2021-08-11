@@ -8,7 +8,7 @@ handle: /set_res4
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ### Table entre deux ensembles (terme propre à ce site)
-On dit que l'ensemble $$c$$ est une **table** de l'ensemble $$a$$ vers l'ensemble $$b$$ si on a l'inclusion $$c \subseteq a \times b$$ et si pour tout ensemble $$x \in a$$ et $$y, z \in b$$, on a l'implication « $$(x, y) \in c \land (x, z) \in c \implies y = z$$ ».
+On dit que l'ensemble $$c$$ est une **table** de l'ensemble $$a$$ vers l'ensemble $$b$$ si on a l'inclusion $$c \subseteq a \times b$$ et si pour tout ensemble $$x \in a$$ et $$y, z \in b$$, on a l'implication $$(x, y) \in c \land (x, z) \in c \implies y = z$$.
 
 ### Fonction entre deux ensembles
 On dit que l'ensemble $$f$$ est une **fonction** d'un ensemble $$a$$ vers un ensemble $$b$$ s'il existe une table $$c$$ de $$a$$ vers $$b$$ telle que $$f = (a, b, c)$$, et on note dans ce cas $$f : a \to b$$. Pour tout ensemble $$x \in a$$, s'il existe $$y \in b$$ tel que $$(x, y) \in c$$, alors $$y$$ est unique (par définition d'une table) et on le notera $$f(x)$$.
