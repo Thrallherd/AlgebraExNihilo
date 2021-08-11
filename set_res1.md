@@ -15,7 +15,7 @@ Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff a \subse
 ### Unicité des singletons
 Si $$a$$ et $$b$$ sont deux ensembles, on a l'équivalence $$a = b \iff \{ a \} = \{ b \}$$.
 
-**Preuve.** Si $$a = b$$, alors les ensembles $$\{ a \}$$ et $$\{ b \}$$ désignent le même ensemble : l'ensemble contenant $$a$$ et $$a$$ seulement. On a donc $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
+**Preuve.** Si $$a = b$$, alors les ensembles $$\{ a \}$$ et $$\{ b \}$$ désignent le même ensemble : l'ensemble contenant $$a$$ et lui seulement. On a donc $$\{ a \} = \{ b \}$$. Réciproquement si $$\{ a \} = \{ b \}$$, alors $$a \in \{ b \}$$, donc $$a = b$$.
 
 ### Ensemble de compréhension
 Si $$a$$ est un ensemble et $$P$$ est une propriété, l'unique ensemble $$b$$ des éléments de $$a$$ vérifiant $$P$$ est un sous-ensemble de $$a$$.
