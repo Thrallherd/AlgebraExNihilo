@@ -32,10 +32,15 @@ Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel qu
 
 **Preuve.** D'après l'axiome de la paire, il existe l'ensemble $$p = \{ a, b \}$$. D'après l'axiome de la réunion, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « il existe $$y \in p$$ tel que $$x \in y$$ ». Cette dernière affirmation étant encore équivalente à « $$x \in a \lor x \in b$$ », cela conclut.
 
+### Intersection d'ensembles
+Pour tout ensemble $$a$$, il existe un ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l’affirmation « $$x \in b$$ » et l’affirmation « pour tout ensemble $$y \in a$$, on a $$x \in y$$ ». L’axiome d’extensionnalité montre alors que b est unique.
+
+**Preuve.** Soit $$a$$ un ensemble. Notons $$P$$ la propriété d'appartenir à tous les éléments de $$a$$. D'après l'axiome de la réunion, il existe un unique ensemble $$b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in b$$ » et l'affirmation « il existe $$y \in a$$ tel que $$x \in y$$ ». D'après l'axiome de compréhension, il existe un unique ensemble $$c \subseteq b$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « il existe $$x \in b \land x$$ vérifie P$$ ». Cette dernière affirmation étant encore équivalente à « pour tout ensemble $$y \in a$$, on a $$x \in y$$ », cela conclut.
+
 ### Intersection de deux ensembles
 Si $$a$$ et $$b$$ sont deux ensembles, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « $$x \in a \land x \in b$$ ». On l'appelle l'**intersection** de $$a$$ et de $$b$$ et on le note $$a \cap b$$.
 
-**Preuve.** Notons $$P$$ la propriété d'appartenance à l'ensemble $$b$$. D'après l'axiome de compréhension, il existe un unique sous-ensemble $$c \subseteq a$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre les affirmations « $$x \in c$$ » et « $$x \in a \land  x$$ vérifie $$P$$ ». Cette dernière affirmation étant encore équivalente à « $$x \in a \land x \in b$$ », cela conclut.
+**Preuve.** D'après l'axiome de la paire, il existe l'ensemble $$p = \{ a, b \}$$. D'après la propriété précédente, il existe un unique ensemble $$c$$ tel que pour tout ensemble $$x$$, il y ait équivalence entre l'affirmation « $$x \in c$$ » et l'affirmation « pour tout ensemble $$y \in p$$, on a $$x \in y$$ ». Cette dernière affirmation étant encore équivalente à « $$x \in a \land x \in b$$ », cela conclut.
 
 ### Couple d'ensembles
 Si $$a$$ et $$b$$ sont deux ensembles, on appelle **couple** de $$a$$ et $$b$$ l'ensemble $$\{ \{ a \}, \{ a, b \} \}$$ et on le note $$(a, b)$$.
